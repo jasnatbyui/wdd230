@@ -10,4 +10,5 @@ p {
 header, h1, footer {
     text-align: center;
     background-color: blue;
+    box-shadow: #000000;
 }
