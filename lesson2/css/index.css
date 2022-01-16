@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+html {
+    font-family: 'Merriweather', serif;
+    display: grid;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+h1, h2 {
+    margin: 5px auto;
+}
+
+@media screen and (max-width: 2000px) {
+    header {
+        color: white;
+        background-color: rgb(127, 127, 207);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+}
+main {
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+picture {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+picture img {
+    width: 80%;
+    margin-left: 20px;
+}
+p {
+    font-family:Georgia, serif;
+    font-size:20px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;
+}
+header {
+    display: grid;
+    text-align: center;
+    background-color: rgb(127, 127, 207);
+    box-shadow: #8a6060;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    background-color: rgb(127, 127, 207);
+    box-shadow: #8a6060;
+    border-radius: 10px;
+    padding: 10px;
+}
+.whitespace {
+    grid-column: 1;
+}
+
+.fitts_law {
+    grid-column: 2;
+}
+
+.rule_thirds {
+    grid-column: 3;
+}
+}
+@media screen and (max-width: 700px) {
+
+    header {
+        color: white;
+        background-color: rgb(6, 6, 110);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+}
+main {
+    width: auto;
+    grid-template-columns: 1fr 1fr;
+}
+body {
+    font-family: 'Merriweather', serif;
+    max-width: 750px;
+    margin: 0;
+}
+p {
+    font-family:Georgia, serif;
+    font-size:20px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;
+}
+header {
+    display: grid;
+    text-align: center;
+    background-color: rgb(127, 127, 207);
+    box-shadow: #8a6060;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    background-color: rgb(127, 127, 207);
+    box-shadow: #8a6060;
+    border-radius: 10px;
+    padding: 10px;
+}
+.whitespace {
+    grid-column: 1;
+}
+
+.fitts_law {
+    grid-column: 2;
+}
+
+.rule_thirds {
+    grid-column: 3;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+    header {
+        color: white;
+        background-color: rgb(127, 127, 207);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+    body {
+        font-family: 'Merriweather', serif;
+        max-width: 750px;
+        margin: 0;
+    }
+    p {
+        font-family:Georgia, serif;
+        font-size:20px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;
+    }
+    header {
+        display: grid;
+        text-align: center;
+        background-color: rgb(127, 127, 207);
+        box-shadow: #8a6060;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    footer p {
+        text-align: center;
+        background-color: rgb(127, 127, 207);
+        box-shadow: #8a6060;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .whitespace {
+        grid-column: 1;
+    }
+    
+    .fitts_law {
+        grid-column: 2;
+    }
+    
+    .rule_thirds {
+        grid-column: 3;
+    }
+}
