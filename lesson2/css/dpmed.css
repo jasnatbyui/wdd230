@@ -1,7 +1,18 @@
 @media only screen and (min-width: 32.5em) {
-    #whitespace #fitts_law #rule_thirds {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: start;
-    }
+
+.whitespace {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+.fitts_law {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+.rule_thirds {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
 }
