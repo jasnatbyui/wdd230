@@ -59,13 +59,6 @@ div {
     border: 1px solid grey;
     background-color: lightgrey;
 }
-div p, div a, div picture {
-    padding: 5px;
-}
-
-div #hicks, div #fitts, div #heirarchy, div a {
-    font-size: 20px;
-}
 
 img {
     display: flex;
