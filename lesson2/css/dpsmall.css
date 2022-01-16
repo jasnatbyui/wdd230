@@ -5,12 +5,12 @@ body {
     padding: 1em;
     border-radius: 1em;
     background-color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 header {
     text-align: center;
-    background-color: #0072b2;
+    background-color: #6a8a7d;
     border-radius: .5em;
     box-shadow : 0 2px 5px 0 #1a1a1a;   
 }
@@ -23,7 +23,7 @@ header p {
 h1 {
     margin: 10px; 
     color: rgb(224, 221, 221);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 h2 {
@@ -83,7 +83,7 @@ footer {
     align-items: center;
     justify-content: center;
     /* margin: auto 0; */
-    background-color: #0072b2;
+    background-color: #6a8a7d;
     border-radius: .5em;  
     box-shadow : 0 2px 5px 0 #1a1a1a;
 }
