@@ -19,24 +19,31 @@
 <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
+    <div id="fb-root"></div>
 <!-- HEADER HERE -->
 	<header>
-        ,<picture></picture>
+        <h1>Timaru Chamber of Commerce</h1>
+        <picture></picture>
         <img id= "WELT_FColor"
         src="images\WE love timaru full logo colour.png"
-        alt="We Love Timaru fullcolor"/>  
+        alt="We Love Timaru fullcolor"
+        style="width: 150px; height: 150px"/> 
         <section class="headings">
-    <h1>Timaru Chamber of Commerce</h1>
     <div class="m">We Love Timaru - The Riviera of the South</div>
-    <div><img id= "logo_facebook"
+    <div class="fb-share-button" data-href="http://127.0.0.1:5500/Chamber/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2FChamber%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=your-url-here.com"target="_blank" title="Share on LinkedIn">Share on LinkedIn</a>
+    <!--        <div><img id= "logo_facebook"
         src="images\logo_facebook.png" alt= "facebook logo"
         style="width: 80px; height: 80px"/>
         <img id= "logo_instagram"
         src="images\logo_instagram.png" alt= "instagram logo"
         style="width: 80px; height: 80px"/>
-    </div>
+    </div> -->
         </section>
         <date></date>
+    </header>
 <!-- <aside></aside> -->        
 
 <!-- NAVIGATION HERE -->
@@ -54,31 +61,69 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <p>THis is the start of Main.</p>
+        <div class= "floatdiv">
+            <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image" style="width: 500px; height: 250px">
+            <section class="weather">
+              <h3> Weather forecast </h3>  
+              <p> Input: Value </p>
+              <p> Input: Value </p>
+              <p> Input: Value </p>
+            </section>
+        </div>
+        <div class= "floatdiv2">
+            <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image" style="width: 500px; height: 250px">
+            <section class="temperature">
+              <h3> Timaru Weather </h3>  
+              <p> Input: Value </p>
+              <p> Input: Value </p>
+              <p> Input: Value </p>
+            </section>
+        </div>
+        <article>
+        <p>This is the start of Main. Declare a function named sortBy that:
+            calls the reset function,
+            sorts the global temple list by the currently selected value of the HTML element with an ID of sortBy, and
+            calls the output function passing in the sorted list of temples.
+            Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function.
+            Review</p>
+        </article>    
+        <article>
         <img id= "ByTheSea"
         src="images/Timaru_bytheSea.jpg"
         alt="Picture poster of Timaru"
-        style="width: 220px; height: 220px"
-      />
-        <div>
-            <img id= "WELT_FColor"
-            src="images\WE love timaru full logo colour.png"
-            alt="We Love Timaru fullcolor"
-            style="width: 300px; height: 320px"
-          /> 
-        </div>
-          <img id= "WELT_white"
-          src="images\We Love Timaru white-01.png"
-          alt="We Love Timaru white"
-          style="width: 300px; height: 320px"
-        /> 
-        </div>
+        style="width: 200px; height: 220px">
+        </article>
+        <article>
         <h1>The Mission of the Timaru Chamber of Commerce</h1>
         <p>The page name shoud almost exactly match the menu item. </p>
         <p>This is the end of main</p>
         <p>Our mission is to promote and improve the business environment, stimulate a vibrant local 
            economy and produce a cooperative effort to enhance the overall quality of life in Timaru 
            to its highest potential.</p>
+        </article>
+        <picture>
+            <img id= "WELT_white"
+            src="images\We Love Timaru white-01.png"
+            alt="We Love Timaru white"
+            style="width: 300px; height: 320px"
+          /> 
+          </picture>
+        <article>
+            <h2>Description</h2>
+            <p>This pen demostrates flex in the header and footer with middle alignment; grid in the main, 
+                some common properties and then three different techniques for the nav starting with flex. 
+                Inline-blocks and floats are commented out - to be swithed for comparison.
+            </p>
+        </article>
+        <article>
+            <picture>
+                <img id= "WELT_FColor"
+                src="images\WE love timaru full logo colour.png"
+                alt="We Love Timaru fullcolor"
+                style="width: 270px; height: 230px"
+              /> 
+              </picture>
+        </article>
     </main>
 
 <!-- FOOTER HERE -->   
@@ -92,7 +137,8 @@
           document.write("Last Modified: "+date);
        </script>
       </p>    </footer> 
-    
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="FNUCKME8"></script>   
 <script src="js/scripts.js"></script>
+<script src="js/bom.js"></script>
 </body>
 </html>

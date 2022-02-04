@@ -1,5 +1,22 @@
+/*
 @media only screen and (min-width: 64rem) {
     nav ul li a {
         padding: .5rem 1rem;
     }
     }
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
