@@ -21,10 +21,11 @@ header,
 footer {
 	background-color: #bed;
 	display: flex;
+    flex-direction: row;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	padding: 5px;
 }
 header,
 nav,
@@ -32,6 +33,14 @@ main,
 footer {
 	max-width: 960px;
 	margin: 0 auto;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: row;
 }
 h1 {
 	font-size: 1.1rem;
@@ -92,6 +101,10 @@ main picture {
 	margin: 0.5rem;
     background-color: #eee;
 }
+.pic_banner {
+    max-width: 960px;
+    grid-template-rows: 1fr;
+}
 .floatdiv  {
     position: relative;
     border: 3px dashed cyan;
@@ -99,7 +112,7 @@ main picture {
     height: 100px;
   }
 .floatdiv2  {
-    position: relative;
+    position: sticky;
     border: 3px dashed cyan;
     width: 200px;
     height: 100px;

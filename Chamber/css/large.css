@@ -7,6 +7,10 @@
 
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
+	header img {
+		width: 100%;
+		height: auto;
+	}
 	h1 {
 		font-size: 2rem;
 	}
