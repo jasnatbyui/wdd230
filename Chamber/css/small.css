@@ -15,6 +15,24 @@ body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
+div#banner { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: #c6ebbe;
+    width: 100%; 
+  }
+  div#banner-content { 
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border: 1px solid #000;
+    text-align: center;
+    display: none;
+  }
+  div#main-content { 
+    padding-top: 70px;
+ }
 
 /* phone or baseline views **************************/
 header,
@@ -22,10 +40,10 @@ footer {
 	background-color: #bed;
 	display: flex;
     flex-direction: row;
-	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 5px;
+    margin: 20px;
 }
 header,
 nav,
@@ -102,19 +120,20 @@ main picture {
     background-color: #eee;
 }
 .pic_banner {
-    max-width: 960px;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .floatdiv  {
-    position: relative;
+    position: left;
     border: 3px dashed cyan;
-    width: 200px;
+    width: 400px;
     height: 100px;
   }
 .floatdiv2  {
-    position: sticky;
+    position: right;
     border: 3px dashed cyan;
-    width: 200px;
+    width: 400px;
     height: 100px;
   }
 .weather {

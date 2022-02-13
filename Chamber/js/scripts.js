@@ -22,3 +22,15 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+const d = new Date();
+let day = d.getDay()
+    if (day < 4) {
+        document.getElementById("banner-content").style.display = "block";
+}
+
+
+ //   function myFunction()
+
+//.style.display = "block"
+//Date() object and getDay() method (Links to an external site.)
