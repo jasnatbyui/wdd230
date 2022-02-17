@@ -1,0 +1,8 @@
+h1 {
+    grid-row: auto;
+    width: 400px;
+    padding: 50px;
+}
+img {
+    margin-bottom: 75px;
+}
