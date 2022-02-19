@@ -182,8 +182,32 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
 
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
 
+.today {
+	color: tomato;
+}
+.lazyload_img {
+        grid-row: auto;
+        width: 400px;
+        padding: 50px;
+        margin-bottom: 75px;
+}
+img {
+    filter: blur(0em);
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
 
 
 /*
