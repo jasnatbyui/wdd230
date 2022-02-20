@@ -196,18 +196,54 @@ nav ul.open {display: block;}
 .today {
 	color: tomato;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
 .lazyload_img {
         grid-row: auto;
         width: 400px;
         padding: 50px;
         margin-bottom: 75px;
+
+}
+.discover_details {
+    grid-row: auto;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 75px;
+    font-size: 1em;
+    font-family: "Sansita", Ubuntu, sans-serif;
+
 }
 img {
     filter: blur(0em);
+    margin-bottom: 25px;
+    filter: drop-shadow(25px 10px 4px #79797c);
 }
 img[data-src] {
     filter: blur(0.2em);
   }
+#TxtBx400_250 {
+    box-sizing: 400 250;
+    height: 250;
+    width: 400;
+    font-size: 2em;
+}
+#TxtBx400_300 {
+    box-sizing: 400 250;
+    height: 250;
+    width: 400;
+    font-size: 2em;
+}
+#TxtBx400_400 {
+    box-sizing: 400 250;
+    height: 250;
+    width: 400;
+    font-size: 2em;
+}
 
 
 /*
