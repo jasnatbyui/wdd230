@@ -197,6 +197,7 @@ nav ul.open {display: block;}
 	color: tomato;
 }
 .grid-container {
+    flex: 50%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
@@ -209,7 +210,8 @@ nav ul.open {display: block;}
 
 }
 .discover_details {
-    grid-row: auto;
+    flex: 50%;
+    /* grid-row: auto; */
     width: 400px;
     height: 300px;
     padding: 50px;
