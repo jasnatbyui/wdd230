@@ -109,7 +109,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 8px;
 }
-.highlight {
+#highlight {
     background-color: rgb(75, 107, 75);
 }
 
