@@ -52,3 +52,4 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
+Use at least one instance of the first-child or nth:child() pseudo classes.
