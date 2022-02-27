@@ -57,6 +57,7 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 20rem;
+    border-radius: 4px;
 }
 
 /*----------- FORM --------------*/
