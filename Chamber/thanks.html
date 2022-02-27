@@ -69,43 +69,12 @@
     
     
 <!-- CONTENT HERE -->
-<main>
-    <h1>Chamber Membership Application</h1>
-    <form method="get" action="thanks.html">     
-    <fieldset>
-        <legend>Membership Information</legend>
-        <label class="top"> First Name* <input type="text" name="fname" required></label>
-        <label class="top"> Last Name* <input type="text" name="lname" required></label>
-        <label class="top"> Business Position/Title <input type="text" name="posname" placeholder="Manager" 
-             size="45"pattern="[a-z]{-, }" maxlength="7"></label>
-        <label class="top"> Cellphone number*<input type="tel" name="phone" placeholder="321 12345" required></label>
-        <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-        <label class="top"> Business Name/Title <input type="text" name="busname" placeholder="The Timaru Shop"></label>
-    </fieldset>   
-    <fieldset>
-        <legend>Membership Level</legend>
-        <div>Please select your membership choice:
-        <label class="sbs"><input type="radio" name="new-members"  value="non-profit"> Non-Profit</label>
-        <label class="sbs"><input type="radio" name="new-members"  value="bronze"> Bronze</label>
-        <label class="sbs"><input type="radio" name="new-members"  value="silver"> Silver</label>
-        <label class="sbs"><input type="radio" name="new-members"  value="gold"> Gold</label>
-    </fieldset>
-    <fieldset>
-        <legend>Business description</legend>
-        <div>Please tell us about your business</div>
-        <textarea rows="6" cols="33" placeholder="Tell us about your business? (100 words)">
-        </textarea>
-
-]    </fieldset>
-
-        <input type="submit" value=" Click to Join Timaru Chamber of Commerce" class="submitBtn">
-<!-- HIDDEN DAT/TIME HERE, remove script to .js if working -->
-        <p>Date/Time: <span class="submitBtn"></span></p>
-        <script>var dt = new Date();
-            document.getElementById("submitBtn").innerHTML=dt.toLocaleString();</script> 
-        
-    </form>    
-        
+<main id="thanks">
+    <h1>Join the Chamber of Commerce Application</h1>
+        <h1>Thanks for applying to join the Timaru Chamber of Commerce. We will get back to you within a week.</h1>
+        <div style="text-align:center;">
+            <h1>Thank you!</h1>
+            <span id="timer"></span></div>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -121,5 +90,6 @@
       </p>    </footer> 
     
 <script src="js/scripts.js"></script>
+
 </body>
 </html>
