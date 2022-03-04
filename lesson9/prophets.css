@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+  }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+h2 {
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+section img {
+    width: 100%;
+    height: auto;
+}
+.prophetname {
+    color: blueviolet;
+}
+.datebirth {
+    color: rgb(204, 163, 241);
+    font-size: smaller;
+}
+.birthplace {
+    color: rgb(171, 97, 240);
+    font-size: small;
+}
+
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+  border-top: 5px solid #555;
+  text-align: center;
+  background-color: rgb(222, 200, 243) ;
+}
+
+h1 {
+  color: #000;
+  border-bottom: 1px solid #eee;
+  text-shadow: 0 0 15px #999;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
+
