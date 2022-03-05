@@ -61,6 +61,4 @@ function dispayProphets(prophet) {
     card.appendChild(portrait);
 
     cards.appendChild(card);
-
-
 }

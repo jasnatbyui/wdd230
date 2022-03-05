@@ -1,87 +1,100 @@
 {
     "businesses": [
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "website": "27 June 1844",
-        "email": 14,
-        "imageurl": ""
+        "name": "Timaru Yamaha",
+        "address": "145 Hilton Highway, Washdyke, Timaru",
+        "phonenumber": "03 688 7166",
+        "website": "www.timaruyamaha.co.nz",
+        "email": "info@timaruyamaha.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruYamaha.png"
       },
       {
-        "name": "Brigham",
-        "lastname": "Young",
-        "birthdate": "01 June 1801",
-        "death": "29 August 1877",
-        "length": 30,
-        "order": 2,
-        "birthplace": "Vermont",
-        "numofchildren": 56,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "name": "Timaru Chemist",
+        "address": "14 Stafford St, Timaru",
+        "phonenumber": "03 688 7946",
+        "website": "www.timaruchemist.co.nz",
+        "email": "info@timaruchemistco.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruChemist.png"
       },
       {
-        "name": "John",
-        "lastname": "Taylor",
-        "birthdate": "01 November 1808",
-        "death": "25 July 1887",
-        "length": 6,
-        "order": 3,
-        "birthplace": "England",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "name": "Timaru Asian",
+        "address": "100 Stafford Street, Timaru",
+        "phonenumber": "03 678 7226",
+        "website": "www.timaruasian.co.nz",
+        "email": "info@timaruasian.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruAsian.png"
       },
       {
-        "name": "Wilford",
-        "lastname": "Woodruff",
-        "birthdate": "01 March 1807",
-        "death": "02 September 1898",
-        "length": 9,
-        "order": 4,
-        "birthplace": "Connecticut",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "name": "Timaru Fish N Chips",
+        "address": "202 Hilton Highway, Washdyke, Timaru",
+        "phonenumber": "03 688 6746",
+        "website": "www.timarufnc.co.nz",
+        "email": "info@timarufnc.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruFnC.png"
       },
       {
-        "name": "Lorenzo",
-        "lastname": "Snow",
-        "birthdate": "03 April 1814",
-        "death": "19 October 1901",
-        "length": 3,
-        "order": 5,
-        "birthplace": "Ohio",
-        "numofchildren": 42,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "name": "Timaru Movie Max",
+        "address": "45 Stafford Street, Timaru",
+        "phonenumber": "03 688 7544",
+        "website": "www.moviemax.co.nz",
+        "email": "info@moviemax.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruMovies.png"
       },
       {
-        "name": "Joseph F.",
-        "lastname": "Smith",
-        "birthdate": "12 November 1838",
-        "death": "19 November 1918",
-        "length": 17,
-        "order": 6,
-        "birthplace": "Missouri",
-        "numofchildren": 48,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "Timaru Security",
+        "address": "5 Hilton Highway, Washdyke, Timaru",
+        "phonenumber": "03 678 4466",
+        "website": "www.timarusecurity.co.nz",
+        "email": "info@timarusecurity.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruSecurity.png"
       },
       {
-        "name": "Heber J.",
-        "lastname": "Grant",
-        "birthdate": "22 November 1856",
-        "death": "14 May 1945",
-        "length": 23,
-        "order": 7,
-        "birthplace": "Utah",
-        "numofchildren": 12,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "Timaru Motors",
+        "address": "33 Church Street, Timaru",
+        "phonenumber": "03 688 1236",
+        "website": "www.timarumotors.co.nz",
+        "email": "info@timarumotors.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruMotors.png"
       },
       {
-        "name": "George A.",
-        "lastname": "Smith",
-        "birthdate": "4 April 1870",
-        "death": "4 April 1951",
-        "length": 6,
-        "order": 8,
-        "birthplace": "Utah",
-        "numofchildren": 3,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "name": "Mackenzie and Willis Furniture",
+        "address": ", Timaru",
+        "phonenumber": "03 688 7166",
+        "website": "www.mwfurniture.co.nz",
+        "email": "info@mwfurniture.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruFurniture.png"
       },
+      {
+        "name": "Why Buy New",
+        "address": "115 Stafford Street, Timaru",
+        "phonenumber": "03 688 7166",
+        "website": "www.whybuynew.co.nz",
+        "email": "info@whybuynew.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_SecondHand.png"
+      },
+      {
+        "name": "Barrett Kitchens",
+        "address": "209 Seadown Road, Timaru",
+        "phonenumber": "03 656 7177",
+        "website": "www.barrettkitchens.co.nz",
+        "email": "info@barrettkitchens.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruJoinery.png"
+      },
+      {
+        "name": "Fashion Focus",
+        "address": "45 King Street, Timaru",
+        "phonenumber": "03 688 1166",
+        "website": "www.fashionfocus.co.nz",
+        "email": "info@fashionfocus.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruFashion.png"
+      },
+      {
+        "name": "Bullock Bar and Restaurant",
+        "address": "55 Evans Street, Timaru",
+        "phonenumber": "03 688 7886",
+        "website": "www.bullockbar.co.nz",
+        "email": "info@bullockbar.co.nz",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Chamber/images/Screenshot_TimaruRestaurant.png"
+      }
+    ]
+}
