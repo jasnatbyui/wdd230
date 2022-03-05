@@ -1,4 +1,4 @@
-const requestURL = 'https://jasnatbyui.github.io/wdd230/Chamber/data/data.js'
+const requestURL = 'https://jasnatbyui.github.io/wdd230/Chamber/data/data.json'
 const directories = document.querySelector('.directory');
 
 fetch(requestURL)
