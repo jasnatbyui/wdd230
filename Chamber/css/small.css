@@ -373,11 +373,8 @@ textarea {
     width: 400px;
 }
 /*----------- Directory --------------*/
-body {
-    font-size: 16px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-  }
-.cards {
+.directory {
+    border: #000 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -385,32 +382,36 @@ h2 {
     margin-bottom: 3px;
     margin-top: 8px;
 }
-section img {
-    width: 100%;
-    height: auto;
-}
+
 .businessname {
-    color: blueviolet;
+    color: rgb(50, 67, 224);
 }
-.datebirth {
-    color: rgb(204, 163, 241);
+.address  {
+    color: rgb(79, 94, 221);
     font-size: smaller;
 }
-.birthplace {
-    color: rgb(171, 97, 240);
+.phonenumber  {
+    color: rgb(119, 130, 226);
+    font-size: smaller;
+}
+.website {
+    color: rgb(8, 1, 14);
     font-size: small;
 }
-
-main {
+.email {
+    color: rgb(5, 1, 8);
+    font-size: small;
+}
+.main-dir {
   margin: 1rem;
   position: relative;
   border-top: 5px solid #555;
   text-align: center;
-  background-color: rgb(222, 200, 243) ;
+  background-color: #c6ebbe;
 }
 
-h1 {
-  color: #000;
+.busdirect {
+  color: #445ba9;
   border-bottom: 1px solid #eee;
   text-shadow: 0 0 15px #999;
   width: 100%;
@@ -428,10 +429,11 @@ section {
   flex-direction: column;
   align-items: center;
 }
-img {
+section img {
   width: auto;
-	max-width: 325px;
+    max-width: 325px;
   box-shadow: 0 0 30px #777;
   height: 200px;
   border: 1px solid #333;
+    height: auto;
 }

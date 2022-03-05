@@ -29,9 +29,9 @@ function dispayBusinesses(business) {
     h2PhNumber.innerHTML = `<span class="phonenumber">Phone number: ${business.phonenumber}</span>`;
     h2Website.innerHTML = `<span class="website">Website: ${business.website}</span>`;
     h2Email.innerHTML = `<span class="email">Email: ${business.email}</span>`;
-    portrait.setAttribute('src', business.imageurl);
-    portrait.setAttribute('alt', `Directory of ${business.name}`);
-    portrait.setAttribute('loading', 'lazy');
+    screenshot.setAttribute('src', business.imageurl);
+    screenshot.setAttribute('alt', `Directory of ${business.name}`);
+    screenshot.setAttribute('loading', 'lazy');
 
     directory.appendChild(h2Name);
     directory.appendChild(h2Address);
