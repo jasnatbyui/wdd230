@@ -129,12 +129,7 @@ main picture {
     border: 3px dashed cyan;
     width: 400px;
     height: 100px;
-  }
-.floatdiv2  {
-    position: right;
-    border: 3px dashed cyan;
-    width: 400px;
-    height: 100px;
+    font: bolder;
   }
 .weather {
       position: absolute;
@@ -144,7 +139,7 @@ main picture {
       border: 1px solid #000;
       padding: 1.5rem;
       box-shadow: 0 0 30px #333;
-      opacity: .6;
+      opacity: 1;
   }
 .temperature {
     position: absolute;
