@@ -1,0 +1,337 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+/* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } */
+
+@charset "UTF-8"; /* not necessary */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+header, footer {
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-color);
+    text-align: center;
+    align-content: center;
+}
+header {
+    display: block;
+}
+h1, header h2, header nav {
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #536878;
+}
+nav {
+    display: block;
+    background-color: #c6ebbe;
+    text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+#WELT_FColor {
+    max-width: 210px;
+    min-width: 160px;
+    width: 20vw;
+}
+header img {
+    padding: 10px;
+}
+h1, h2, h3, h4 {
+    font-family: "DM Sans", sans-serif;
+}
+
+h4 {
+    color: var(--heading-bg-color);
+    border: solid 1px var(--heading-bg-color);
+    padding: 2px;
+}
+
+p, a, li, label, input {
+    font-family: "Lato", sans-serif;
+}
+
+#submit-button {
+    background-color: var(--heading-bg-color);
+    color: white;
+}
+
+main p a {
+    color: black;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+    clear: left;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+    padding: 10px;
+}
+
+a {
+    color: var(--nav-text-color);
+}
+
+.navigation li:hover {
+    background-color: var(--nav-hover-bg-color);
+    font-style: italic;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive li:first-child {
+    background-color: var(--nav-hover-bg-color);
+}
+
+#event-banner {
+    display: none;
+    text-align: center;
+    background-color: var(--header-footer-bg-color);
+    color: var(--heading-text-color);
+    margin: 0;
+    font-size: 2em;
+}
+
+#event-banner p {
+    padding: 20px;
+    margin: 0;
+    font-style: italic;
+}
+
+section {
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 225px;
+    overflow: hidden;
+}
+
+section p {
+    padding: 10px;
+}
+
+h3 { 
+    background-color: var(--heading-bg-color);
+    color: var(--heading-text-color);
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 2vw;
+    font-size: 1.25em;
+}
+
+button:hover {
+    background-color: var(--heading-bg-color);
+    color: white;
+    border: solid 3px black;
+    font-style: italic;
+}
+
+#library-wide {
+    max-width: 100%;
+    float: left;
+}
+
+#library-tall {
+    display: none;
+}
+
+#spotlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+}
+
+#spotlight-section img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#spotlight1, #spotlight2, #spotlight3 {
+    margin: 10px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+#spotlight3 {
+    display: none;
+}
+
+#weather-section {
+    width: 80vw;
+    margin: 10 auto 10 auto;
+}
+
+#current-weather {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#temp {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#weather-section img {
+    max-width: 200px;
+    margin: 10px;
+}
+
+#weather-section p {
+    margin: 0;
+}
+
+footer .logo {
+    float: left;
+    margin: auto;
+}
+
+footer p {
+    clear: both;
+}
+
+.footer-links {
+    margin: 2.5vw;
+    padding: 2.5vw;
+}
+
+.social {
+    max-width: 50px;
+    width: 15vw;
+    float: right;
+}
+
+#twt {
+    clear: right;
+}
+
+.footer-text {
+    padding: 10px;
+}
+
+.discover-flex-large {
+    display: none;
+}
+
+.discover-flex-small {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.discover-flex-small img {
+    max-width: 100%;
+}
+
+#days-since-vis-div {
+    text-align: center;
+    font-style: italic;
+}
+
+form {
+    max-width: 100%;
+    margin: auto;
+}
+
+.thankyou {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.cards section {
+    padding: 10px;
+}
+
+.cards img {
+    max-width: 100%;
+    max-height: 120px;
+}
+
+.cards a {
+    color: black;
+}
+
+.cardview p, .cardview h2 {
+    margin: 0;
+}
+
+.inactive {
+    display: none;
+}
+
+.listview p, .listview h2 {
+    margin: 0;
+}
+
+.listview {
+    min-height: auto;
+}
+
+.listview p, .listview a {
+    padding: 5px;
+    text-align: left;
+}
+
+.toggle-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.view-button {
+    width: auto;
+    margin: auto;
+}
