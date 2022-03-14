@@ -118,7 +118,7 @@ a {
     background-color: var(--nav-hover-bg-color);
 }
 
-#event-banner {
+#banner-content {
     display: none;
     text-align: center;
     background-color: var(--header-footer-bg-color);
@@ -127,7 +127,7 @@ a {
     font-size: 2em;
 }
 
-#event-banner p {
+#banner-content p {
     padding: 20px;
     margin: 0;
     font-style: italic;
