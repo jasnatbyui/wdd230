@@ -1,82 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
-body {
-    margin: 0;
-    padding: 1em;
-    border-radius: 1em;
-    background-color: whitesmoke;
-    font-family: 'Merriweather', sans-serif;
+.content {
+    max-width: 92vw;
+    
+}
+
+h1, h2, h3, footer p {
+    font-family: Lato, sans-serif;
+}
+
+p, a {
+    font-family: Dongle, sans-serif;
 }
 
 header {
+    background-color: #c6ebbe;
+    padding: 15px;
+    margin-bottom: 35px;
     text-align: center;
-    background-color: #6a8a7d;
-    border-radius: .5em;
-    box-shadow : 0 2px 5px 0 #1a1a1a;   
-}
-header p {
-    font-size: 20px;
-    margin: 10px; 
-    color: white;
 }
 
 h1 {
-    margin: 10px; 
-    color: rgb(224, 221, 221);
-    font-family: 'Merriweather', sans-serif;
+    color: black;
 }
 
 h2 {
-    text-align: center;    
+    color: palegoldenrod;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+main div {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #c6ebbe;
+    max-width: 92vw;
+}
+
+main div p, main div a {
+    padding: 25px;
+    margin: 0px;
+    font-size: 2em;
+    line-height: 1em;
 }
 
 h3 {
-    text-align: center; 
-    background-color: #4c9cc9;   
-    margin: 0;
-    padding: 0;
-    border-radius: .8em .8em 0 0;
-}
-
-div {
-    align-items: center;
-    justify-content: center;
-    margin: 15px;  
-}
-
-.whitespace {
-    border-radius: 1em;
-    border: 1px solid grey;
-    background-color: lightgrey;
-}
-.fitts_law {
-    border-radius: 1em;
-    border: 1px solid grey;
-    background-color: lightgrey;
-}
-.rule_thirds {
-    border-radius: 1em;
-    border: 1px solid grey;
-    background-color: lightgrey;
-}
-
-img {
-    display: flex;
-    justify-content: center;
-    border-radius: .5em;
-    /* align-items: center;
-    text-align: center; */
-    width: 99%;
-    margin: auto;
-    margin-top: 10px;   
+    margin-top: -1px;
+    margin-right: -1px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(192, 52, 52);
+    font-size: 2em;
+    padding: 15px;
+    color: white;
 }
 
 footer {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    /* margin: auto 0; */
-    background-color: #6a8a7d;
-    border-radius: .5em;  
-    box-shadow : 0 2px 5px 0 #1a1a1a;
+    background-color: rgb(192, 52, 52);
+    padding: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: -20;
+}
+
+footer p {
+    color: black;
+    text-align: center;
 }

@@ -48,10 +48,32 @@ h2 {
     color: #536878;
 }
 nav {
-    display: block;
     background-color: #c6ebbe;
     text-align: center;
 	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    width: 960px;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+}
+nav a:hover {
+	/* 	background-color: #bbb;
+	color: #36454f; */
+	--d: 75%;
 }
 #WELT_FColor {
     max-width: 210px;

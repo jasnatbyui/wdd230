@@ -1,18 +1,48 @@
 @media only screen and (min-width: 60em) {
 
-.whitespace {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-}
-.fitts_law {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-}
-.rule_thirds {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-}
+    @media (min-width: 1000px) {
+        .content {
+            max-width: 98vw;
+            margin: 1vw;
+        }
+    
+        main {
+            display: grid;
+            grid-template-columns: 31vw 31vw 31vw;
+            grid-template-rows: 1fr;
+            grid-gap: 1vw;
+        }
+    
+        main div img {
+            max-width: 20vw;
+        }
+    
+        .whitespace {
+            grid-column: 1/2;
+        }
+    
+        .musioapp_pic {
+            max-width: 28vw;
+            margin: 1.5vw;
+        }
+    
+        .fitts_law {
+            grid-column: 2/3;
+        }
+    
+        .amazon_pic {
+            max-width: 28vw;
+            margin: 1.5vw;
+        }
+    
+        .rule-thirds {
+            grid-column: 3/4;
+            grid-row: 1/-1;
+        }
+    
+        .tico_pic {
+            max-width: 28vw;
+            margin: 1.5vw;
+        }
+    }
 }
