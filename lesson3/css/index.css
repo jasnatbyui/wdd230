@@ -49,9 +49,15 @@ p {
     width: 60vw;
     text-align: center;
 }
-hr {
-    background-color: black;
-    height: 5px;
+table,th,td {
+	border: thin solid #333;
+	border-collapse: collapse;
+	padding: 5px;
+}
+td {
+	background-color: #bad;
+	font-size: 0.8rem;
+	text-align: center;
 }
 header, nav, main, footer {
     padding: 1vw;
@@ -65,7 +71,7 @@ nav {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    
+
 }
 #logo {
     grid-row: 4/4;
@@ -100,27 +106,4 @@ nav {
 }
 .typography-body {
     text-align: center;
-}
-th {
-    background-color: var(--header-heading-color);
-    padding: 2vw;
-}
-td p {
-    padding: 2vw;
-}
-.personas {
-    width: 20vw;
-}
-#persona1, #persona2 {
-    background-color: #454;
-    width: min-content;
-}
-.typo :nth-child() {
-    height: 10px;
-    background-color: black;
-}
-td {
-    height: 10px;
-    background-color: black;
-
 }
