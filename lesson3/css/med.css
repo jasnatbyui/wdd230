@@ -1,0 +1,13 @@
+@media (min-width: 510px) {
+    .content {
+        max-width: 98vw;
+        margin: 1vw;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 46vw 46vw;
+        grid-template-rows: 1fr auto;
+        grid-gap: 2vw;
+    }
+}
