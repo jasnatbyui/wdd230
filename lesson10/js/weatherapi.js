@@ -7,25 +7,26 @@ fetch(apiURL)
     const currentTemp = document.querySelector('#current-temp');
     const weathericon = document.querySelector('#weathericon');
     const caption = document.querySelector('figcaption');
+    const speed = document.querySelector('#windspeed');
+
+    // let currentTemps = jsObject.main.temp;
+    // let wspeed = jsObject.wind.speed;
+
+    document.querySelector('#windspeed').textContent = speed;
+    speed.textContent = jsObject.main.temp.toFixed(1);
 
     currentTemp.textContent = jsObject.main.temp.toFixed(0);
     let imgsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     let imgalt = jsObject.weather[0].description;
     imgalt = imgalt.split(' ').map(capitalize).join(" ");
-    // let capimgalt = '';
-    // for (let i = 0; i < imgalt.length; i++) {
-    //     if (chartAt(i) === 0) {
-    //         capimgalt += imgalt.chartAt(i).toUpperCase();
-    //     } else {
 
-    //     }
-    //     }
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
         weathericon.setAttribute('src', imgsrc);
         weathericon.setAttribute('alt', imgalt);
         caption.innerHTML = imgalt;
-  });
 
-  function capitalize(word) {
+      
+ function capitalize(word) {
       return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
   }
+  });
