@@ -1,4 +1,8 @@
 let imagesToLoad = document.querySelectorAll('img[data-src]');
+const imageOptions = {
+  threshold: 0.75,
+  rootMargin: '0px 0px 75px 0px'
+};
 const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => {
@@ -22,3 +26,4 @@ const loadImages = (image) => {
       loadImages(img);
     });
   }  
+  

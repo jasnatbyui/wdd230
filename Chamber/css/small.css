@@ -10,12 +10,39 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* phone or baseline views **************************/
+:root {
+    --clr-text:    var(--clr-text);
+    --main-clr-bg: 98e2c6;
+
+    --ff-title: "Merriweather", serif;
+    --ff-para: "Merriweather", serif;
+}
+html {
+    box-sizing: border-box;
+    font-family: var(--ff-para);
+    color: var(--clr-text);
+    font-size: 1.125rem;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/*----------- TYPE --------------*/
+h2 {
+    font-family: var(--ff-title);
+    line-height: 0.8;
+    font-size: 20px;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
 /*----------- BODY --------------*/
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: var(--ff-title)
 }
-/* phone or baseline views **************************/
 header,
 footer {
 	background-color: #bed;
@@ -77,6 +104,7 @@ div#banner {
 nav {
     background-color: #c6ebbe;
     text-align: center;
+    justify-content: center;
 	box-shadow: 0 2px 15px gray;
 }
 nav ul {
@@ -124,14 +152,15 @@ nav ul.open {display: block;}
 /*----------- MAIN --------------*/
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	font-size: 0.8rem;
 }
-main article {
+.indexgrid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
 	margin: .5rem;
 	border: 1px solid #bbb;
 	padding: 1rem;
-	background-color: #eee;
 }
 main article ul {
 margin: 1rem 0 0 1rem;
@@ -291,7 +320,17 @@ img[data-src] {
     width: 400;
     font-size: 2em;
 }
-/*----------- FORM --------------*/
+/*----------- Business-Sectors --------------*/
+.busPic {
+    background-color: #333;
+    background-image: url(image/Timaru.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15vh 1em;
+}
 
 /*----------- Directory --------------*/
 .directory {

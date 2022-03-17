@@ -9,10 +9,12 @@
 --nav-hover-bg-color: #bfedef;
 --heading-bg-color: #bfedef;
 --heading-text-color: white;
+
+--FF-primary: 'Merriweather', serif;
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: var(--FF-primary);
     max-width: 80vw;
 }
 
@@ -62,6 +64,7 @@ td {
 header, nav, main, footer {
     padding: 1vw;
     margin-top: 15px;
+    justify-content: center;
 }
 nav {
     background-color: var(--nav-bg-color);
@@ -71,7 +74,11 @@ nav {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-
+}
+nav a {
+    display: inline-block;
+    padding: 1em;
+    justify-content: center;
 }
 #logo {
     grid-row: 4/4;
