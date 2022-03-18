@@ -24,16 +24,34 @@
 <body>
 <!-- HEADER HERE -->
 	<header>
-        <h1>Timaru Chamber of Commerce</h1>
-        <h2 id="current-date">Monday, 14 March 2022</h2>
-        <img class="logo" id= "WELT_FColor"
+        <section class="logo">
+            <a href="index.html">
+            <img class="logo" id= "WELT_FColor"
         src="images\WE love timaru full logo colour.png"
-        alt="We Love Timaru fullcolor"
-        style="width: 150px; height: 150px"/> 
-    <div class="banner">We Love Timaru - The Riviera of the South</div>
-    <a href="https://facebook.com" target="blank_" id="fb" class="social"><img src="images/facebook_thumbnail.png" alt="Facebook Logo" class="social"></a>    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-    <a href="https://twitter.com" target="blank_" id="twt" class="social"><img src="images/twitter_blue.jpg" alt="Twitter Logo" class="social"></a>    </header>
-        <div id="banner-content">
+        alt=" Logo - We Love Timaru fullcolor"></a>
+        </section>
+        <h1>Timaru Chamber of Commerce</h1>
+        <section class="date">
+        <p id="current-date">Monday, 14 March 2022</p>
+        </section>
+
+    <div class="socialapps"><p>We Love Timaru - The Riviera of the South</p>
+    <a href="https://facebook.com" target="blank_" id="fb" class="social"><img src="images/facebook_thumbnail.png" alt="Facebook Logo" class="social"></a>   
+    <a href="https://twitter.com" target="blank_" id="twt" class="social"><img src="images/twitter_blue.jpg" alt="Twitter Logo" class="social"></a>
+</div>
+    <div class="banner" style="display: none;">
+        <div class="banner__content">
+            <div class="banner__text">
+                <strong>Reminder:</strong> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </div>
+            <button class="banner__close" type="button">
+            <span class="material-icons">
+                close
+            </span>
+            </button>
+        </div>
+    </div>   
+    <div id="banner-content">
             <p>"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
         </div>
     <div id="fb-root"></div>      
@@ -41,11 +59,10 @@
     <nav>
     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-            <li class=""><a href="index.html">Chamber of Commerce</a></li>
-            <li><a href="businessSectors.html">Business sectors</a></li>
-            <li><a href="businessDevelopment.html">Business development</a></li>
-            <li><a href="membership.html">Membership</a></li>    
-            <li><a href="discover.html">Discover</a></li>    
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>    
+            <li><a href="join.html">Join</a></li>    
             <li><a href="contact.html">Contact</a></li>    
         </ul>
     </nav>
@@ -53,11 +70,11 @@
     
 <!-- CONTENT .... Can you make sure to send the link in the requested format? Thanks! -->
     <main>
-        <article>
-        <picture class= "pic_banner">
-        <div class= "floatdiv">
-            <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image" style="width: 500px; height: 250px">
-            <section class="weather">
+        <section class="info">
+        <div class= "indexgrid floatdiv">
+            <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image">
+        </div>
+            <div class="weather">
                <p>The current temperature in Timaru, New Zealand is
                     <span id="current-temp"></span> &deg;F</p>
                <figure><img src="" alt="" id="weathericon" />  
@@ -68,11 +85,8 @@
                 <p>The current wind chill is 
                     <span id="windchill"></span> &deg;F</p>
                     <span id="current-date" id="current-year"></span>
-            </section>
         </div>
-        </picture>
-    </article>
-        <article class="indexgrid history">
+        <div class="indexgrid history">
         <p>The Chamber is, and always has been, a non-political and independent body working in the best interests 
             of business in the community and nationwide, if and when the need arises. In earlier days it was customary 
             for the local post master, station master, and managers of the Harbour Board, Power Board, County Councils, 
@@ -81,29 +95,29 @@
             it was customary for the post master or station master to phone and invite him to morning tea from time to 
             time to keep up with what was happening on the business front.
         </p>
-        </article>    
-        <article>
+    </div>    
+        <div>
         <img id= "ByTheSea"
         src="images/Timaru_bytheSea.jpg"
         alt="Picture poster of Timaru"
         style="width: 200px; height: 220px">
-        </article>
-        <article class="indexgrid mission">
+        </div>
+        <div class="indexgrid mission">
         <h1>The Mission of the Timaru Chamber of Commerce</h1>
         <p>The page name should almost exactly match the menu item. </p>
         <p>This is the end of main</p>
         <p>Our mission is to promote and improve the business environment, stimulate a vibrant local 
            economy and produce a cooperative effort to enhance the overall quality of life in Timaru 
            to its highest potential.</p>
-        </article>
-        <picture>
+        </div>
+        <div>
             <img id= "WELT_white"
             src="images\We Love Timaru white-01.png"
             alt="We Love Timaru white"
             style="width: 300px; height: 320px"
           /> 
-          </picture>
-        <article class="indexgrid partner">
+        </div>
+        <div class="indexgrid partner">
             <h2>Description</h2>
             <p>The Chamber is your business partner providing representation to government and other 
                 organisations, and a voice for business on issues, proposals and regional developments 
@@ -111,13 +125,14 @@
                 is just a call away. Phone the South Canterbury Chamber team for practical business 
                 support and solutions, starting for little or no cost.
             </p>
-            <picture>
+            <div>
                 <img id= "WELT_FColor"
                 src="images\WE love timaru full logo colour.png"
                 alt="We Love Timaru fullcolor"
               /> 
-              </picture>
-        </article>
+            </div>
+        </div>
+        </section>
     </main>
 
 <!-- FOOTER HERE -->   

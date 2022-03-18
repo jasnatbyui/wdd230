@@ -22,7 +22,7 @@ function dispayBusinesses(business) {
     let h2PhNumber = document.createElement('h2');
     let h2Website = document.createElement('h2');
     let h2Email = document.createElement('h2');
-    let screenshot = document.createElement('img');
+    let screenshot = document.createElement('img', {className: 'bus-img'});
 
     h2Name.innerHTML = `<span class="businessname">${business.name}</span>`;
     h2Address.innerHTML = `<span class="address">${business.address}</span>`;
