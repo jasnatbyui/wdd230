@@ -1,4 +1,8 @@
 let imagesToLoad = document.querySelectorAll('img[data-src]');
+const imageOptions = {
+  threshold: 0.75,
+  rootMargin: '0px 0px 75px 0px'
+};
 const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => {
@@ -24,7 +28,7 @@ const loadImages = (image) => {
   }  
 // initialize display elements
 const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+const visitsDisplay = document.querySelector(".labelvisits");
 
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));

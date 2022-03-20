@@ -52,6 +52,7 @@ p {
     text-align: center;
 }
 table,th,td {
+    justify-items: center;
 	border: 5px solid #333;
 	border-collapse: collapse;
 	padding: 5px;
@@ -111,6 +112,7 @@ nav a {
     background-color: var(--heading-bg-color);
     text-align: center;
 }
-.typography-body {
+.typo {
+    flex-direction: column;
     text-align: center;
 }

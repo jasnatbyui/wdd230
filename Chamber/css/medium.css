@@ -1,22 +1,6 @@
-/*
-@media only screen and (min-width: 35rem) {
 
-
-
-    nav button {display: none;}
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
-    }
-    nav ul li a {
-        border:none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-    }
-    }
-    /* Resp Menu Example */
     /* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 41em) {
 	h1 {
 		font-size: 1.5rem;
 	}
@@ -30,7 +14,7 @@
 	nav ul {
 		display: grid;
 		/*grid-template-columns: repeat(5, 1fr);*/
-		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
 	}
 
 	nav a {
