@@ -1,0 +1,209 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+:root {
+    --clr-text: black;
+    --main-clr-bg: rgb(247, 231, 211);
+    --clr-bg: white;
+    --header-clr-text: #545C52;
+    --nav-bg-color: white;
+    --msg-bg-color: #98E2C6;
+    --header-clr-bg: #bfedef;
+    --footer-clr-bg: #bfedef;
+    --ff-title: "Merriweather", serif;
+    --ff-para: "Merriweather Sans", serif;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@media only screen and (min-width: 64rem) {
+    
+    header h1 {
+        font-size: larger;
+        align-content: center;
+    }
+    
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .social {
+        grid-area: 1/4/2/5;
+    }
+    #primaryNav {
+        grid-area: 1/3/2/4;
+    }
+    
+    picture.wdd230img {
+        width: 95%;
+    }
+    .hero-pic2 img {
+        height: 40%;
+    }
+    main.home-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, auto);
+
+    }
+    .action-call {
+        bottom: 5%;
+        right: 5%;
+    }
+    div.join-action {
+        top: 2%;
+        right: 5%;
+        left: 5%;
+    }
+    .top-left {
+        position: absolute;
+        top: 1%;
+        left: 5%;
+        font-family:'Roboto', sans-serif; 
+        font-size: 20px;
+    }
+    picture.wdd230img {
+        width: 100%;
+    }
+    .event {
+        grid-area: 1/1/2/2;
+    }
+    .weather {
+        grid-area: 2/1/3/2;
+    }
+    .hero {
+        grid-area: 1/2/3/5;
+    }
+    picture.wdd230img {
+    	display: block;
+        width: 100%;
+    }
+    picture.wdd230img img {
+        width: 100%;
+    }
+
+    .highlight {
+        grid-area: 1/5/4/6;
+    }
+    .highlight {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        padding: 0;
+    }
+    .highlight3 {
+        display: block;
+        grid-area: 3/1/4/2;
+        
+    }
+    .join {
+        grid-area: 3/1/4/2;
+    }
+    .join-action {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        align-items: center;
+    }
+    .join-text {
+        margin-top: 55%;
+    }
+    .news {
+        grid-area: 3/2/4/5;
+    }
+    
+    /* DISCOVER PAGE */
+    .lazyload_img {   
+        width: 70%; 
+        border: #000 10px;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 35vw 35vw;
+        margin: 20 0 0 0;
+    }
+    .gridcontainer picture img {
+        width: 150%;
+    }
+    /*-----JOIN PAGE-----*/
+    form label.side {
+        padding: .4rem 0;
+    }
+
+    .join-form {
+        max-width: 1200px;
+    }
+    form label.top input, form label.top select, textarea {
+        width: 100%;
+        max-width: 35rem;
+        font-size: 1.2rem;
+    }
+    form label.top, form div, form input.submitBtn {
+        font-size: 1.2rem;
+    }
+
+    section.membership {
+        display: flex;
+        gap: 1rem;
+    }
+    div.membership-buttons {
+        grid-area: 1/1/2/2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    /*-----DIRECTORY PAGE-----*/
+    .main-dir {
+        margin-left:  10rem;
+        margin-right: 10rem;
+    }
+    .directory {
+        width: auto;
+        border: #000 10px;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 35vw 35vw;
+        margin: 20 0 0 0;
+    }
+    .busdirect h1 {
+        align-content: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    /* CONTACT US  */
+    main.contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin: 1rem auto;
+    }
+    section.contact-picture {
+        grid-area: 1/1/2/2;
+        max-width: 500px;
+        margin: 1rem auto;
+    }
+    section.contact-details {
+        grid-area: 2/1/3/2;
+        max-width: 500px;
+    }
+    section.join-form {
+        grid-area: 1/2/3/3;
+        max-width: 800px;
+    }
+}

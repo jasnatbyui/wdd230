@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timaru - Chamber of Commerce, Student Project</title>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
-  <!-- STYLE SHEETS -->
-  <link href="css/normalize.css" rel="stylesheet">
-  <!-- phone-default -->
-  <link href="css/small.css" rel="stylesheet">
-  <!-- enhance-tablet -->
-  <link href="css/medium.css" rel="stylesheet">
-  <!-- enhance-desktop -->
-  <link href="css/large.css" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico">
-  <script defer src="js/weatherapi.js"></script>
-  <script defer src="js/windchill.js"></script>
-
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Timaru Chamber of Commerce Website Home Page">
+        <title>Home | Timaru Chamber of Commerce</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/test.css">
+        <link rel="stylesheet" href="css/test-med.css">
+        <link rel="stylesheet" href="css/test-lge.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <script defer src="js/chamber.js"></script>
+        <script defer src="js/weatherapi.js"></script>
+        <script defer src="js/windchill.js"></script>
+    </head>
 <body>
-  <!-- HEADER HERE -->
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <img class="imglogo" src="images\WE-love-timaru-full-logo-colour.webp"
-          alt=" Logo - We Love Timaru fullcolor"></a>
-    </div>
-    <div class="title">
-      <h1>Timaru Chamber of Commerce</h1>
-      <p>We Love Timaru - The Riviera of the South</p>
-    </div>
-    <div class="date">
-      <p id="current-date">Monday, 14 March 2022</p>
-    </div>
-
-    <div class="socialapps">
-      <a href="https://facebook.com" target="blank_" id="fb" class="social"><img src="images/facebook_thumbnail.png"
-          alt="Facebook Logo" class="social"></a>
-      <a href="https://twitter.com" target="blank_" id="twt" class="social"><img src="images/Twitter-Logo-Square.png"
-          alt="Twitter Logo" class="social"></a>
-    </div>
-  </header>
-  <!-- NAVIGATION HERE -->
-  <nav>
-    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-    <ul id="primaryNav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="discover.html">Discover</a></li>
-      <li><a href="directory.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
+<!-- HEADER HERE -->
+    <header>
+        <picture>
+            <img src="images/WE-love-timaru-full-logo-colour.webp" alt="Logo of Timaru chamber of commerce">
+        </picture>
+        <h1><strong>TIMARU<br> Chamber of Commerce</strong></h1>
+        <div class='social'>
+            <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook_thumbnail.png" alt="Facebook icon"></a>
+            <a class="social-2" href="https://www.instagram.com/" target="_blank"><img src="images/Instagram_thumbnail.png" alt="Instagram icon"></a>
+            <a class="social-3" href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_thumbnail.png" alt="Linkedin icon"></a>
+            <a class="social-4" href="https://twitter.com/" target="_blank"><img src="images/twitter_blue.jpg" alt="Twitter icon"></a>
+        </div>
+<!-- NAVIGATION HERE -->
+        <nav>
+            <button id='hamburgerBtn'><span>&#9776;</span><span>X</span></button>
+            <ul id='primaryNav'>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <aside></aside>
+            <section>
+                <button onclick="todaysMessage()" class="message"><strong>Chamber Message</strong></button>
+                <div id="todaysMessage">
+                    <span id="message"></span>
+                </div>
+            </section>
+            <div id="banner">
+                <div id="banner-content">
+                    "We would love to see you.🤝🏼"
+                </div>
+              </div>
+            <div id="fb-root"></div>
+        </div>
+    </header>
+<!-- CONTENT HERE -->
   <body>
     <main class="grid-container">
       <section class="lazyload_img">
@@ -114,22 +115,28 @@
           <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
         </div>
     </main>
-    <!-- FOOTER HERE -->
-    <footer>
-      <p>
-        Author: &copy 2022; Jason McLaughlin<br />
-        <a href="mailto:jasnatbyui@gmail.com">jasnatbyui@gmail.com</a>
-        My GitHub site <a href="https://github.com/jasnatbyui">jasnatbyui</a>
-        <script>
-          var date = document.lastModified;
-          document.write("Last Modified: " + date);
-        </script>
-      </p>
-    </footer>
-    <script src="js/scripts.js"></script>
-    <script src="js/discover.js"></script>
-  </body>
-
-</html>
-
+<!-- FOOTER HERE -->
+<footer>
+  <div class='footer-grid'>
+      <picture>
+          <img src="images/WE-love-timaru-full-logo-colour.webp" alt="Logo of Timaru town chamber of commerce"  class='footer-img'>
+      </picture>
+      <div class='address'>
+          <p class='footer'><strong>TIMARU<br> Chamber of Commerce</strong></p>
+          <p class="footer">100 Stafford Street, Timaru, South Canterbury, New Zealand</p>
+      </div>
+      <div class='info'>
+          <p class='footer'>information@timaruchamber.org.nz</p>
+          <p class='footer'>+64 (03)) 688 4550</p>
+          <p class='footer'><a href='https://goo.gl/maps/kC1knqgyUVykLupE8'>📍Location Map</a></p>
+      </div>
+  </div>
+  <hr>
+  <div>
+      <p class='lastmod'>© <span id="year"></span>Timaru Chamber of Commerce, Powered by Jason McLaughlin<span id="lastmod"></span></p>
+  </div>
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/discover.js"></script>
+</body>
 </html>

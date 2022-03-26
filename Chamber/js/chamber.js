@@ -1,13 +1,3 @@
-
-// hamburger in header
-function togglemenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-}
-const x = document.getElementById('hamburgerBtn')
-x.onclick = togglemenu;
-
-// set current date in header
 // select the elements to manipulate (output to)
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
@@ -41,23 +31,3 @@ else {
 // OUTPUT
 // Assign the value of the message variable to the HTML element with an ID of message, following the if block. 
 document.querySelector('#message').textContent = message;
-
-
- //   function myFunction()
-
-//.style.display = "block"
-//Date() object and getDay() method (Links to an external site.)
-var count = 5;
-var redirect = "thanks.html";
-function countDown(){
-var timer = document.getElementById("timer");
-if(count > 0){
-count--;
-timer.innerHTML = "This page will redirect in "+count+" seconds.";
-setTimeout("countDown()", 1000);
-}else{
-window.location.href = redirect;
-}
-}
-countDown();
-

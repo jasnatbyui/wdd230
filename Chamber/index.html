@@ -10,7 +10,7 @@
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
+    <link href="css/small copy.css" rel="stylesheet">
     <!-- enhance-tablet -->
     <link href="css/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
@@ -57,11 +57,17 @@
     </nav>
 
     <!-- CONTENT .... Can you make sure to send the link in the requested format? Thanks! -->
-    <main class="mainGrid" >
+    <main class="grid" >
         <div class="container">
-            <div class="home-img0">
+            <picture class="wdd230img">
+                <source media="(max-width:559px)" srcset="images/wdd230-org1.jpg">
+                <source media="(max-width:1023px)" srcset="images/wdd230-org2.jpg">
+                <source media="(max-width:1600px)" srcset="images/wdd230-org3.jpg">
+                <img src="images/wdd230-org.jpg" alt="main photo">
+            </picture>
+            <picture class="home-img0">
                 <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image">
-            </div>
+            </picture>
             <div class="weather">
                 <h2>Current weather</h1>
                     <p>The current temperature in Timaru, New Zealand is
@@ -93,9 +99,9 @@
                 </p>
             </div>
 
-            <div class="home-img1">
+            <picture class="home-img1">
                 <img src="images/Timaru_bytheSea.jpg" alt="Picture poster of Timaru">
-            </div>
+            </picture>
             <div class="banner" style="display: none;">
                 <div class="banner__content">
                     <div class="banner__text">
@@ -112,9 +118,6 @@
             <div id="banner-content">
                 <p>"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
             </div>
-            <div id="fb-root"></div>
-
-
             <div class="indexgrid mission">
                 <h1>The Mission of the Timaru Chamber of Commerce</h1>
                 <p>The page name should almost exactly match the menu item. </p>
@@ -123,35 +126,34 @@
                     produce a cooperative effort to enhance the overall quality of life in Timaru to its highest
                     potential.</p>
             </div>
-
-            <div class="home-img2">
-                <img class="WELT_white" src="images\We Love Timaru white-01.png" alt="We Love Timaru white">
-                        </div>
+            <picture class="home-img2">
+                <img src="images\We Love Timaru white-01.png" alt="We Love Timaru white">
+            </picture>
             <div class="indexgrid partner">
-                <h2>Description</h2>
+                <h1>Description</h1>
                 <p>The Chamber is your business partner providing representation to government and other organisations,
                     and a voice for business on issues, proposals and regional developments that impact your business.
                     Got a business challenge? Helpful and
                     professional support is just a call away. Phone the South Canterbury Chamber team for practical
                     business support and solutions, starting for little or no cost.
-                </p>
-
-                <div>
-                    <img id="WELT_FColor" src="images\WE love timaru full logo colour.png"
+                </p></div>
+                <picture class="home-img3">
+                    <img src="images\WE love timaru full logo colour.png"
                         alt="We Love Timaru fullcolor" />
-                </div>
-
-            </div>
-
+                </picture>
         </div>
     </main>
-
     <!-- FOOTER HERE -->
     <footer>
         <p>
             Author: &copy 2022; Jason McLaughlin<br />
-            <a href="mailto:jasnatbyui@gmail.com">jasnatbyui@gmail.com</a> My GitHub site <a
-                href="https://github.com/jasnatbyui">jasnatbyui</a>
+            <a href="mail to:jasnatbyui@gmail.com">jasnatbyui@gmail.com</a>
+            <div class="info">
+                <p>100 Stafford Street, Timaru, South Canterbury 7910</p>
+                <p>info@timaruchamber.org</p>
+                <p>Phone: (03) 686-2505</p>
+                <a href="https://www.google.co.nz/maps/place/100+Stafford+Street,+Timaru+7910/@-44.3976885,171.2374037,14.76z/data=!4m5!3m4!1s0x6d2cc2296fda976b:0xeefe3bf2b89bbab8!8m2!3d-44.3983791!4d171.2553626" title="timaru" class="map" target="_blank">📍Location Map</a>
+            </div>
             <script>
                 var date = document.lastModified;
                 document.write("Last Modified: " + date);

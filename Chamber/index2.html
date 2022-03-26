@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Timaru Chamber of Commerce Website Home Page">
+        <title>Home | Timaru Chamber of Commerce</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/test.css">
+        <link rel="stylesheet" href="css/test-med.css">
+        <link rel="stylesheet" href="css/test-lge.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <!-- <script defer src="js/chamber.js"></script> -->
+        <script defer src="js/weatherapi.js"></script>
+        <script defer src="js/windchill.js"></script>
+    </head>
+<body>
+<!-- HEADER HERE -->
+    <header>
+        <picture>
+            <img src="images/WE-love-timaru-full-logo-colour.webp" alt="Logo of Timaru chamber of commerce">
+        </picture>
+        <h1><strong>TIMARU<br> Chamber of Commerce</strong></h1>
+        <div class='social'>
+            <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook_thumbnail.png" alt="Facebook icon"></a>
+            <a class="social-2" href="https://www.instagram.com/" target="_blank"><img src="images/Instagram_thumbnail.png" alt="Instagram icon"></a>
+            <a class="social-3" href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_thumbnail.png" alt="Linkedin icon"></a>
+            <a class="social-4" href="https://twitter.com/" target="_blank"><img src="images/twitter_blue.jpg" alt="Twitter icon"></a>
+        </div>
+<!-- NAVIGATION HERE -->
+        <nav>
+            <button id='hamburgerBtn'><span>&#9776;</span><span>X</span></button>
+            <ul id='primaryNav'>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <aside></aside>
+            <section>
+                <button onclick="todaysMessage()" class="message"><strong>Chamber Message</strong></button>
+                <div id="todaysMessage">
+                    <span id="message"></span>
+                </div>
+            </section>
+            <div id="banner">
+                <div id="banner-content">
+                    "We would love to see you.🤝🏼"
+                </div>
+              </div>
+            <div id="fb-root"></div>
+        </div>
+    </header>
+<!-- CONTENT HERE -->
+    <main class="home-grid">
+        <div class="hero">
+            <picture class="wdd230img">
+                <source media="(max-width:559px)" srcset="images/Timaru_CBay.jpg">
+                <source media="(max-width:1023px)" srcset="images/Timaru_CBay1.jpg">
+                <source media="(max-width:1600px)" srcset="images/Timaru_CBay2.jpg">
+                <img src="images/Timaru_CBay.jpg" alt=" photo">
+            </picture>
+            <div class="top-left">
+                <h2><strong>Welcome to Timaru, the Riviera of the South</strong></h2>
+            </div>
+            <picture class="hero-pic2">
+                <img src="images/Timaru_colour-white-long.jpg" alt="Banner we love Timaru">
+            </picture>
+            <section class="action-call">
+                <h2><a href="join.html"><strong>Join the Chamber</strong></a></h2>
+            </section>
+        </div>  
+        <div class='news'>
+            <h2 class="news-header"><strong>Timaru Chamber History</strong></h2>
+            <p class="news-text">The Chamber is, and always has been, a non-political and independent body working in the best
+                interests of business in the community and nationwide, if and when the need arises. In earlier days
+                it was customary for the local post master, station master, and managers of the Harbour Board, Power Board, County Councils, and various
+                industry associations to be prominent members of the Chamber. In fact as Maurice Smith found during
+                his long relationship with the Chamber, both as Vice President and then Secretary for many years, it was customary for the post master or
+                station master to phone and invite him to morning tea from time to time to keep up with what was
+                happening on the business front.
+            </p>
+        </div>
+        <section class='highlight'>
+            <div class='highlight1'>
+                <a href="contact.html"><h2>Have your say - click here.</h2></a>
+                <hr>
+            </div>
+            <div class='highlight2'>
+                <p><span id="timaru-by-sea"></span></p>
+                <a href="directory.html"><img src="images/Timaru_bytheSea.jpg" alt="Timaru by Sea"></a>
+                <h2>Business by the sea - click here.</h2>
+            </div>
+            <div class='highlight3'>
+                <p><span id="chamber-map"></span></p>
+                <a href="contact.html"><img src="images/Chamber-map.PNG" alt="Timaru map"></a>
+                <h2>Click the map to find us.</h2>
+            </div>
+        </section>
+        <div class='join'>
+            <div class="join-action">
+                <a href="join.html"><h2><strong>Join us</strong></h2></a>
+            </div>
+            <div>
+                <p class="join-text">Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+            </div>
+        </div>   
+        <div class='event'>
+            <h2 class="event-header"><strong>Business of the Month</strong></h2>
+            <p class="event-text"><strong>Timaru Yamaha</strong></p>
+            <a href="contacts.html">more info...<img src="images/yamaha-24.jpg" alt="race bike"></a>
+        </div>
+        <div class='weather'>
+            <h2 class="weather-header"><strong>Weather:</strong></h2>
+            <div class="weather-box">
+                <figure style="text-transform:capitalize;"><img src="" alt="" id="weathericon"><figcaption></figcaption></figure><p><span id="current-temp" class="weather-temp"></span> &deg;C</p>
+            </div>
+            <hr>
+            <table class="weather-tb">
+                <tr>
+                    <td class="windspeed">Wind Speed:</td>
+                    <td><span id="windspeed"></span> km/h</td>
+                </tr>
+                <tr>
+                    <td class="windchill">Wind Chill:</td>
+                    <td><span id="windchill"></span></td>
+                </tr>
+                
+                <tr class="weather-timestamp">
+                    <td>Data receiving time:</td>
+                    <td><span id="weather-timestamp"></span></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+<!-- FOOTER HERE -->
+<footer>
+    <div class='footer-grid'>
+        <picture>
+            <img src="images/WE-love-timaru-full-logo-colour.webp" alt="Logo of Timaru town chamber of commerce"  class='footer-img'>
+        </picture>
+        <div class='address'>
+            <p class='footer'><strong>TIMARU<br> Chamber of Commerce</strong></p>
+            <p class="footer">100 Stafford Street, Timaru, South Canterbury, New Zealand</p>
+        </div>
+        <div class='info'>
+            <p class='footer'>information@timaruchamber.org.nz</p>
+            <p class='footer'>+64 (03)) 688 4550</p>
+            <p class='footer'><a href='https://goo.gl/maps/kC1knqgyUVykLupE8'>📍Location Map</a></p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <p class='lastmod'>© <span id="year"></span>Timaru Chamber of Commerce, Powered by Jason McLaughlin<span id="lastmod"></span></p>
+    </div>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
