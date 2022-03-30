@@ -61,3 +61,27 @@ window.location.href = redirect;
 }
 countDown();
 
+// Header date
+
+let headerDateBox = document.getElementById("display-date");
+let meetGreet = document.getElementById("meetgreet");
+
+headerDate();
+
+function headerDate(){
+    requestedFormat = Intl.DateTimeFormat("en", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    });
+    console.log(requestedFormat.format(Date.now()));
+    if (day == 1 || day == 2){
+        headerDateBox.append(requestedFormat.format(Date.now()));
+        meetGreet.append(`🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`);
+    }
+    else{
+        headerDateBox.classList.add("hide");
+        meetGreet.classList.add("hide");
+    }
+}

@@ -6,10 +6,10 @@ body {
 
 /* Header */
 
-.social{
+.logo-title {
     display: inline-block;
 }
-.social-collapse a, .social-collapseheader img {
+.header-collapse a, .header-collapseheader img {
     margin-right: auto;
     max-width: 100%;
     height: 100%;
@@ -200,21 +200,21 @@ nav ul.open{
 
 /* spot 3 */
 
-.security{
+.temple-experiences {
     border-left: 10px solid rgb(176, 34, 140);
     background-color: rgba(176, 34, 140, 0.2);
 }
 #spot3{
     margin-left: 10px;
 }
-.security img{
+.temple-experiences img{
     display: block;
     max-width: 100%;
     max-height: 40%;
     margin-left: auto;
     margin-right: auto;
 }
-.security p{
+.temple-experiences p{
     margin-left: 10px;
 }
 

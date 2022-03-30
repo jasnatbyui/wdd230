@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <title>Temple Inn and Suites</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+            <link rel="shortcut icon" href="images/chamber_icon.ico">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="stylesheet" href="normalise">
+            <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+                <div class="social">
+                    <div class="social-collapse">
+                        <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="header logo"></a>
+                        <div class="date-related">
+                            <h2 id="display-date"></h2>
+                            <h3 id="meetgreet"></h3>
+                            <h3 id="daycount"></h3>
+                        </div>
+                        <div class="soc-net">
+                            <a href="https://twitter.com"><i class="soc-nets soc-twitter"></i></a>
+                            <a href="https://www.linkedin.com"><i class="soc-nets soc-linkedin"></i></a>
+                            <a href="https://www.facebook.com"><i class="soc-nets soc-facebook"></i></a>
+                            <a href="https://www.instagram.com"><i class="soc-nets soc-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="navigation">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact-form.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+              <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages 
+                  specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints 
+                  around the world. The owner-operated company caters to temple workers, patrons, and their families by 
+                  providing specialized services and accommodations that meet the needs of those patrons. The hotel 
+                  accommodations and services are available to anyone willing to abide by the terms and policies outlined 
+                  by the company. The overall goal of the website project is to promote and provide information about the 
+                  specialized services that this hotel chain offers to meet the needs of temple patrons who come to serve 
+                  in the temple or who participate in events such as sealings, weddings, receptions, and youth trips. The 
+                  website should reflect the Church culture and be designed to support a temple oriented theme as well as 
+                  the concept of being a haven of comfort and accessibility.</p>
+                  <main class="contact">
+                    <div class="googleMap2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.7898754198136!2d171.25186121557405!3d-44.39643494613598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d2cc229ec2c3e8d%3A0x6b9bafffacf635c4!2sStafford%20Street%2C%20Timaru%207910!5e0!3m2!1sen!2snz!4v1647135389169!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <h1>Contact us, enquires and questions welcome</h1>
+                    <form method="get" action="thanks.html">     
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label class="top"> First Name* <input type="text" name="fname" required></label>
+                        <label class="top"> Last Name* <input type="text" name="lname" required></label>
+                        <label class="top"> Business Position/Title <input type="text" name="posname" placeholder="Manager" 
+                             size="45"pattern="[a-z]{-, }" maxlength="7"></label>
+                        <label class="top"> Cellphone number*<input type="tel" name="phone" placeholder="321 12345" required></label>
+                        <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    </fieldset>   
+                    <fieldset>
+                        <legend>Your preferred contact method</legend>
+                        <div>Please select your choice:
+                        <label class="sbs"><input type="radio" name="new-members"  value="non-profit"> Phonecall</label>
+                        <label class="sbs"><input type="radio" name="new-members"  value="bronze"> Email</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your preferred contact time</legend>
+                        <label class="sbs"><input type="radio" name="new-members"  value="non-profit"> 8-12pm</label>
+                        <label class="sbs"><input type="radio" name="new-members"  value="bronze"> 12-5pm</label>
+                        <label class="sbs"><input type="radio" name="new-members"  value="silver"> Lunchtime</label>
+                        <label class="sbs"><input type="radio" name="new-members"  value="gold"> Evenings</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your enquiry, question or feedback</legend>
+                        <textarea rows="6" cols="33" placeholder="Tell us about your business? (100 words)">
+                        </textarea>
+                
+                ]    </fieldset>
+                
+                        <input type="submit" value=" Click to send your question/feedback" class="submitBtn">
+                <!-- HIDDEN DAT/TIME HERE, remove script to .js if working -->
+                        <p>Date/Time: <span class="submitBtn"></span></p>
+                        <script>var dt = new Date();
+                            document.getElementById("submitBtn").innerHTML=dt.toLocaleString();</script> 
+                        
+                    </form>   
+                </main>
+            </main>
+            <footer>
+                <a href="index.html"><img src="images/rsz_87baaf626bdb4d6b9e9e0c35df47980c.webp" alt="footer logo"></a>
+                <p id="footer-p-1"></p>
+            </footer>
+            <script src="js/script.js"></script>
+            <script src="js/windchill.js"></script>
+        </body>
+    </html>
