@@ -6,8 +6,8 @@
         "phonenumber": "to add",
         "website": "www.churchofjesuschrist.org/temples/details/hamilton-new-zealand-temple?land=eng",
         "email": "hamiltonnewzealandtemple@churchofjesuschrist.org.nz",
-        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/hamilton_nz_lds_temple.jpg",
         "services": "TEMPLE SERVICES: Clothing rental available, Cafeteria food served, Patron housing available, Distribution center nearby",
+        "timetable": "SESSION SCHEDULE: Temple closed during renovation",        
         "announcement": "ANNOUNCEMENT:  17 February 1955",
         "dedication": "DEDICATION:  20-22 April 1958 by David O. McKay",
         "ordinancerooms": "ORDINANCE ROOMS:  One instruction room, five sealing rooms, and one baptistry",
@@ -15,7 +15,8 @@
         "factsp1": "TEMPLE FACTS: The Hamilton New Zealand Temple was the first temple built in the Southern Hemisphere and second built in Polynesia, following the Laie Hawaii Temple (1919).  The Hamilton New Zealand Temple was originally named the New Zealand Temple.  The Hamilton New Zealand Temple is a sister building to the Bern Switzerland Temple.",
         "factsp2": "The Hamilton New Zealand Temple and adjoining Church College of New Zealand (permanently closed in December 2009) were both built entirely by volunteer missionary labor.  The Hamilton New Zealand Temple was originally constructed with a single auditorium-style ordinance room equipped with motion-picture presentation of the endowment.",
         "factsp3": "The Hamilton New Zealand Temple features beautiful murals on the walls of its Celestial Room. (Only two other temples feature full Celestial Room murals: the Idaho Falls Idaho Temple and the Los Angeles California Temple. The corner pillars in the Logan Utah Temple Celestial Room portray a heavenly landscape, too.)  Prior to its dedication, some 112,500 visitors toured the Hamilton New Zealand Temple during its public open house.  The Hamilton New Zealand Temple was dedicated about five months before the London England Temple, marking the first time that two dedications were held in the same year.",
-        "factsp4": "The Church College of New Zealand was dedicated six days after the dedication of the adjoining Hamilton New Zealand Temple.  The first stake in New Zealand was created the month after the dedication of the Hamilton New Zealand Temple in the city of Auckland, about 80 miles north of Hamilton. For a time, the Hamilton New Zealand Temple offered overnight endowment sessions from Friday through Saturday to accommodate the many members who came on the weekend."
+        "factsp4": "The Church College of New Zealand was dedicated six days after the dedication of the adjoining Hamilton New Zealand Temple.  The first stake in New Zealand was created the month after the dedication of the Hamilton New Zealand Temple in the city of Auckland, about 80 miles north of Hamilton. For a time, the Hamilton New Zealand Temple offered overnight endowment sessions from Friday through Saturday to accommodate the many members who came on the weekend.",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/hamilton_nz_lds_temple.jpg"
       },
       {
         "name": "Sydney Australia Temple",
@@ -23,8 +24,8 @@
         "phonenumber": "(61) 2-9841-5471",
         "website": "www.churchofjesuschrist.org/temples/details/sydney-australia-temple?land=eng",
         "email": "sydneyaustraliatemple@churchofjesuschrist.org.nz",
-        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/sydney_australia_temple.jpg",
         "services": "TEMPLE SERVICES: NO clothing rental available, NO cafeteria food served, Patron housing available, Distribution center nearby",
+        "timetable": "SESSION SCHEDULE: Temple closed PHASE 1: TEMPLE OPEN FOR LIVING SEALINGS ONLY",
         "announcement": "ANNOUNCEMENT: 2 April 1980",
         "dedication": "DEDICATION: 20-23 September 1984 by Gordon B. Hinckley",
         "ordinancerooms": "ORDINANCE ROOMS: Two instruction rooms, three sealing rooms, and one baptistry",
@@ -32,8 +33,8 @@
         "factsp1": "TEMPLE FACTS: The Sydney Australia Temple was the first temple built in Australia. The Sydney Australia Temple sits on property formerly used as a school for boys. The buildings were renovated and converted for Church use including area offices.",
         "factsp2": "Elder Bruce R. McConkie of the Quorum of the Twelves Apostles—a former mission president of Australia—presided over the groundbreaking services for the Sydney Australia Temple. At a fireside that evening, he said, There is no reason why we can't have temples in Adelaide, Melbourne, Brisbane, Perth, or wherever the number of saints justifies it. His statement proved prophetic with the construction of the Adelaide Australia Temple, Melbourne Australia Temple, Brisbane Australia Temple, and Perth Australia Temple.",
         "factsp3": "During construction of the Sydney Australia Temple, numerous workers on the project—most of whom did not belong to the Church—asked questions of Brother Frank Hewstone, the Church's project representative, about the temple. One worker often turned to many by the time he finished providing his explanations.",
-        "factsp4": "Thousands of Australians toured the Sydney Australia Temple during its public open house in September 1984, resulting in hundreds of requests for more information about the Church."
-
+        "factsp4": "Thousands of Australians toured the Sydney Australia Temple during its public open house in September 1984, resulting in hundreds of requests for more information about the Church.",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/sydney_australia_temple.jpg"
       },
       {
         "name": "Suva Fiji Temple",
@@ -41,8 +42,8 @@
         "phonenumber": "(679) 338-8949",
         "website": "www.churchofjesuschrist.org/temples/details/suva-fiji-temple?land=eng",
         "email": "suvafijitemple@churchofjesuschrist.org.nz",
-        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/suva_fiji_temple.jpg",
         "services": "NO clothing rental available, NO cafeteria food served, Patron housing available, Distribution center nearby",
+        "timetable": "SESSION SCHEDULE: Temple closed PHASE 1: TEMPLE OPEN FOR LIVING SEALINGS ONLY",
         "announcement": " 2 April 1980",
         "dedication": "20-23 September 1984 by Gordon B. Hinckley",
         "ordinancerooms": "Two instruction rooms, three sealing rooms, and one baptistry",
@@ -50,7 +51,8 @@
         "factsp1": "The Sydney Australia Temple was the first temple built in Australia. The Sydney Australia Temple sits on property formerly used as a school for boys. The buildings were renovated and converted for Church use including area offices.",
         "factsp2": "Elder Bruce R. McConkie of the Quorum of the Twelves Apostles—a former mission president of Australia—presided over the groundbreaking services for the Sydney Australia Temple. At a fireside that evening, he said, There is no reason why we can't have temples in Adelaide, Melbourne, Brisbane, Perth, or wherever the number of saints justifies it. His statement proved prophetic with the construction of the Adelaide Australia Temple, Melbourne Australia Temple, Brisbane Australia Temple, and Perth Australia Temple.",
         "factsp3": "During construction of the Sydney Australia Temple, numerous workers on the project—most of whom did not belong to the Church—asked questions of Brother Frank Hewstone, the Church's project representative, about the temple. One worker often turned to many by the time he finished providing his explanations.",
-        "factsp4": "Thousands of Australians toured the Sydney Australia Temple during its public open house in September 1984, resulting in hundreds of requests for more information about the Church."
+        "factsp4": "Thousands of Australians toured the Sydney Australia Temple during its public open house in September 1984, resulting in hundreds of requests for more information about the Church.",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/suva_fiji_temple.jpg"
 
       },
       {
@@ -59,8 +61,8 @@
         "phonenumber": "(685) 64-230",
         "website": "www.churchofjesuschrist.org/temples/details/apia-samoa-temple?land=eng",
         "email": "apiasamoatemple@churchofjesuschrist.org.nz",
-        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/apia_samoa_temple.jpg",
         "services": "TEMPLE SERVICES: NO clothing rental available, NO cafeteria food served, Patron housing available, Distribution center nearby",
+        "timetable": "SESSION SCHEDULE: PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "announcement": "ANNOUNCEMENT: 7 May 1998",
         "dedication": "DEDICATION:  18 June 2000 by Gordon B. Hinckley",
         "ordinancerooms": "ORDINANCE ROOMS:  Two instruction rooms (two-stage progressive), two sealing rooms, and one baptistry",
@@ -68,7 +70,8 @@
         "factsp1": "TEMPLE FACTS: The Suva Fiji Temple was the first temple built in Melanesia.  The groundbreaking ceremony for the Suva Fiji Temple was held on the same day as the groundbreaking ceremony for the Baton Rouge Louisiana Temple.",
         "factsp2": "Before the dedication of the Suva Fiji Temple, the 12,000 members in four stakes currently living on the main island of Viti Levu and in two districts located on the nearby islands of Vanua Levu,Vanuatu, New Caledonia, Kiribati, Nauru and Tuvalu, traveled to temples in Tonga, Samoa or New Zealand. Now their own temple is located just minutes away near the Samabula Chapel. It is a scenic location not far from the downtown area of Suva, Fiji's capital. With views of the Pacific Ocean from three sides of the property, the land is located at one of the highest points in the city.",
         "factsp3": "Elder Earl M. Monson of the Seventy presidency presided at the temple's groundbreaking services. It will be a privilege for many of you to watch as the temple grows from where we are today to a beautiful structure on this scenic hillside, he said to those gathered at the event. He said the temple will stand as a reminder of the intention God has for families to be eternal. It will be wonderful for mothers and fathers to be able to point to this temple and say that this is where we were sealed for eternity and their families will have a sense of peace and assurance that will help them through difficult times, he said.",
-        "factsp4": "Referring to the great era of temple building initiated by President Hinckley, Elder Monson continued: In many ways we are preparing for the Second Coming of the Savior to the earth, but equally important is that we are preparing family members to meet Him. It is wonderful to know the steps to be taken on the strait and narrow path, defined by the Savior, that lead to eternal life, and to know how families and the temple are interlocked with them. (Church News, 22 May 1999)."
+        "factsp4": "Referring to the great era of temple building initiated by President Hinckley, Elder Monson continued: In many ways we are preparing for the Second Coming of the Savior to the earth, but equally important is that we are preparing family members to meet Him. It is wonderful to know the steps to be taken on the strait and narrow path, defined by the Savior, that lead to eternal life, and to know how families and the temple are interlocked with them. (Church News, 22 May 1999).",
+        "imageurl": "https://jasnatbyui.github.io/wdd230/Temple-Inn/images/apia_samoa_temple.jpg"
       }
     ]
 }
