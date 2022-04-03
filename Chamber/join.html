@@ -1,61 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Timaru Chamber of Commerce Website Home Page">
-        <title>Home | Timaru Chamber of Commerce</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/test.css">
-        <link rel="stylesheet" href="css/test-med.css">
-        <link rel="stylesheet" href="css/test-lge.css">
-        <link rel="shortcut icon" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-        <script defer src="js/chamber.js"></script>
-        <script defer src="js/weatherapi.js"></script>
-        <script defer src="js/windchill.js"></script>
-    </head>
-<body>
-<!-- HEADER HERE -->
-    <header>
-        <picture>
-            <img src="images/WE-love-timaru-full-logo-colour.webp" alt="Logo of Timaru chamber of commerce">
-        </picture>
-        <h1><strong>TIMARU<br> Chamber of Commerce</strong></h1>
-        <div class='social'>
-            <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook_thumbnail.png" alt="Facebook icon"></a>
-            <a class="social-2" href="https://www.instagram.com/" target="_blank"><img src="images/Instagram_thumbnail.png" alt="Instagram icon"></a>
-            <a class="social-3" href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_thumbnail.png" alt="Linkedin icon"></a>
-            <a class="social-4" href="https://twitter.com/" target="_blank"><img src="images/twitter_blue.jpg" alt="Twitter icon"></a>
-        </div>
-<!-- NAVIGATION HERE -->
-        <nav>
-            <button id='hamburgerBtn'><span>&#9776;</span><span>X</span></button>
-            <ul id='primaryNav'>
-                <li><a href="index2.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <aside></aside>
-            <section>
-                <button onclick="todaysMessage()" class="message"><strong>Chamber Message</strong></button>
-                <div id="todaysMessage">
-                    <span id="message"></span>
+    <html lang="en-us">
+        <head>
+            <title>Temple Inn and Suites</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+            <link rel="shortcut icon" href="images/chamber_icon.ico">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="stylesheet" href="normalise">
+            <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+                <div class="logo-title">
+                    <div class="header-collapse">
+                        <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="header logo"></a>
+                        <div class="date-related">
+                            <h2 id="display-date"></h2>
+                            <h3 id="meetgreet"></h3>
+                            <h3 id="daycount"></h3>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <div id="banner">
-                <div id="banner-content">
-                    "We would love to see you.🤝🏼"
-                </div>
-              </div>
-            <div id="fb-root"></div>
-        </div>
-    </header>
+                <nav>
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="navigation">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                            <ul>
+                                <li><a href="reception.html">Reception services</a></li>
+                                <li><a href="temple-missionary.html">Temple Missionary services</a></li>
+                            </ul>
+                        <li><a href="contact-form.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 <!-- CONTENT HERE -->
 <main class="join">
     <h1>Chamber Membership Application</h1>

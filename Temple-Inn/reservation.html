@@ -13,19 +13,13 @@
         </head>
         <body>
             <header>
-                <div class="social">
-                    <div class="social-collapse">
+                <div class="logo-title">
+                    <div class="header-collapse">
                         <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="header logo"></a>
                         <div class="date-related">
                             <h2 id="display-date"></h2>
                             <h3 id="meetgreet"></h3>
                             <h3 id="daycount"></h3>
-                        </div>
-                        <div class="soc-net">
-                            <a href="https://twitter.com"><i class="soc-nets soc-twitter"></i></a>
-                            <a href="https://www.linkedin.com"><i class="soc-nets soc-linkedin"></i></a>
-                            <a href="https://www.facebook.com"><i class="soc-nets soc-facebook"></i></a>
-                            <a href="https://www.instagram.com"><i class="soc-nets soc-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -36,13 +30,27 @@
                         <li><a href="temple.html">Temple</a></li>
                         <li><a href="reservation.html">Reservation</a></li>
                         <li><a href="services.html">Services</a></li>
+                            <ul>
+                                <li><a href="reception.html">Reception services</a></li>
+                                <li><a href="temple-missionary.html">Temple Missionary services</a></li>
+                            </ul>
                         <li><a href="contact-form.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
-            <main>
-                <form action="reservation.php" method="post">
-                    <div class="elem-group">
+                <main class="reservation">
+                    <h1>Accommodation Reservation</h1>
+                    <form method="get" action="thanks.html">     
+                                    <div class="elem-group">
+                                        <div class="elem-group">
+                      <label for="room-selection">Select Temple Location</label>
+                      <select id="room-selection" name="room_preference" required>
+                          <option value="Hamilton">Hamilton, New Zealand</option>
+                          <option value="Sydney">Sydney, Australia</option>
+                          <option value="Suva">Suva, Fiji</option>
+                          <option value="Apia">Apia, Samoa</option>
+                      </select>
+                    </div>  
                       <label for="name">Your Name</label>
                       <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
                     </div>
@@ -85,7 +93,7 @@
                       <label for="message">Anything Else?</label>
                       <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
                     </div>
-                    <button type="submit">Book The Rooms</button>
+                    <button type="submit">Book Your Accommodation</button>
                   </form>            
                 </main>
             <footer>

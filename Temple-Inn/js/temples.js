@@ -1,5 +1,5 @@
 const requestURL = 'https://jasnatbyui.github.io/wdd230/Temple-Inn/data/data.json'
-const directories = document.querySelector('.directory');
+const directories = document.querySelector('.temples');
 
 fetch(requestURL)
 .then(function (response) {
@@ -16,7 +16,7 @@ fetch(requestURL)
 });
 
 function dispayTemples(temple) {
-    let directory = document.createElement('section');
+    let temples = document.createElement('section');
     let h2Name = document.createElement('h2');
     let h2Address = document.createElement('h2');
     let h2PhNumber = document.createElement('h2');
@@ -52,27 +52,27 @@ function dispayTemples(temple) {
 
 
     screenshot.setAttribute('src', temple.imageurl);
-    screenshot.setAttribute('alt', `Directory of ${temple.name}`);
+    screenshot.setAttribute('alt', `Pacific Area Temple: ${temple.name}`);
     screenshot.setAttribute('loading', 'lazy');
 
-    directory.appendChild(h2Name);
-    directory.appendChild(h2Address);
-    directory.appendChild(h2PhNumber);
-    directory.appendChild(h2Website);
-    directory.appendChild(h2Email);
-    directory.appendChild(ulServices);
-    directory.appendChild(tdTimetable);
-    directory.appendChild(h2Announcement);
-    directory.appendChild(h2Dedication);
-    directory.appendChild(h2Ordinance);
-    directory.appendChild(h2Locale);
-    directory.appendChild(pFacts1);
-    directory.appendChild(pFacts2);
-    directory.appendChild(pFacts3);
-    directory.appendChild(pFacts4);
+    temples.appendChild(h2Name);
+    temples.appendChild(h2Address);
+    temples.appendChild(h2PhNumber);
+    temples.appendChild(h2Website);
+    temples.appendChild(h2Email);
+    temples.appendChild(ulServices);
+    temples.appendChild(tdTimetable);
+    temples.appendChild(h2Announcement);
+    temples.appendChild(h2Dedication);
+    temples.appendChild(h2Ordinance);
+    temples.appendChild(h2Locale);
+    temples.appendChild(pFacts1);
+    temples.appendChild(pFacts2);
+    temples.appendChild(pFacts3);
+    temples.appendChild(pFacts4);
 
 
-    directory.appendChild(screenshot);
+    temples.appendChild(screenshot);
 
-    directories.appendChild(directory);
+    directories.appendChild(temples);
 }
