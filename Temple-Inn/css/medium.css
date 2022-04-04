@@ -4,9 +4,6 @@
         display: flex;
         width: 100%;
     }
-    .date-related{
-        display: flex;
-    }
     
     nav button{
         display: none;
