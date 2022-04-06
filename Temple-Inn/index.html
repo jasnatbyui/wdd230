@@ -19,7 +19,8 @@
                         <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="header logo"></a>
                         <div class="join">
                             <div>
-                                <h1>Your reservation is a first step towards a wonderful experience.</h1>
+                                <p class="trans-1">Your reservation is a first step towards a wonderful experience.</p>
+                                <p class="trans-2">Have a wonderful experience, make your reservation today.</p>
                                 <button onclick="location.href='reservation.html'">Click to make a Reservation</button>
                             </div>
                     </div>
@@ -42,11 +43,45 @@
                 </nav>
             </header>
             <main>
-                <div class="hero">
-                    <img src="images/NZtemple-air.jpg" alt="Top Image">
-                </div>
-                <div class="news">
-                    <h1>Paciific Area - About the New Zealand Temple</h1>
+                <div class="slideShow">
+                    <ul class="slideShow__container">
+                      <li class="slideShow__slide">
+                        <figure class="slideShow__image" style="background-image:url(https://c2.staticflickr.com/8/7668/17188829572_53e8c45aec_h.jpg);"></figure>
+                        <div class="slideShow__titleWrap">
+                          <h2 class="slideShow__slideTitle">Barichara</h2>
+                          <div class="slideShow__slideSubTitle">La Abuelita</div>
+                        </div>
+                      </li>
+                      <li class="slideShow__slide">
+                        <figure class="slideShow__image" style="background-image:url(https://c2.staticflickr.com/8/7595/16575563694_5259f740ed_k.jpg);"></figure>
+                        <div class="slideShow__titleWrap">
+                          <h2 class="slideShow__slideTitle">Tayrona</h2>
+                          <div class="slideShow__slideSubTitle">La playa</div>
+                        </div>
+                      </li>
+                      <li class="slideShow__slide">
+                        <figure class="slideShow__image" style="background-image:url(https://c2.staticflickr.com/8/7723/17172064766_edf36b7b51_k.jpg);"></figure>
+                        <div class="slideShow__titleWrap">
+                          <h2 class="slideShow__slideTitle">Santa Marta</h2>
+                          <div class="slideShow__slideSubTitle">El Burro</div>
+                        </div>
+                      </li>
+                      <li class="slideShow__slide">
+                        <figure class="slideShow__image" style="background-image:url(https://c1.staticflickr.com/9/8714/17164716126_5494165d77_k.jpg);"></figure>
+                        <div class="slideShow__titleWrap">
+                          <h2 class="slideShow__slideTitle">Salento</h2>
+                          <div class="slideShow__slideSubTitle">La vista</div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="slideShow__next"><i class="fa fa-angle-right"></i></div>
+                    <div class="slideShow__prev"><i class="fa fa-angle-left"></i></div>
+                  </div>
+            <div class="invite">
+            <h1>We love to attend the temple, make a reservation now to stay at Temple Inn and Suites</h1>
+            </div>
+                <div class="about">
+                    <h1>Pacific Area - About the New Zealand Temple</h1>
                     <p>Situated atop a stately hill in the rural outskirts of Hamilton, the Hamilton New Zealand Temple 
                         overlooks the 86 acres it shares with the former Church College of New Zealand—a Church-operated 
                         school for students ages twelve to eighteen that permanently closed in December 2009 after 51 years 
@@ -57,17 +92,17 @@
                 </div>
                 <div class="mid">
                     <div class="temple-service">
-                        <h2 id="spot1">Temple Service</h2>
-                        <img src="images/NZtemple-couple.jpg" alt="Student Image">
+                        <h1 id="spot1">Temple Service</h1>
+                        <img src="images/NZtemple-couple.jpg" alt="NZtemple-couple Image">
                         <p>Plan your service in the temple? If you need help our patrons are here to help.</p>
                     </div>
                     <div class="temple-timetable">
-                        <h2 id="spot2">Temple Timetables</h2>
+                        <h1 id="spot2">Temple Timetables</h1>
                         <img src="images/temple-moroni.jpg" alt="Moroni on temple">
                         <p>The call to serve in now, so planning your time is essential at the Temple.  Click here to find Temple Timetables......</p>
                     </div>
                     <div class="temple-experiences">
-                        <h2 id="spot3">Temple Experiences</h2>
+                        <h1 id="spot3">Temple Experiences</h1>
                         <img src="images/temple-night-256-.jpg" alt="Temple experience nightime">
                         <p>Your experiences at the Temple are going to be memorable, and as clear as night to day!</p>
                     </div>
@@ -77,15 +112,37 @@
                         <h1>Upcoming Family History Event</h1>
                         <div class="event-content">
                             <figure class="eventphoto">
-                                <img src="images/chairman.jpg" alt="Chairman Image">
+                                <img src="images/familydiscoveryday.jpeg" alt="family discovery Image">
                             </figure>
-                            <p>An oppotunity to have an open discussion with our chairman, Kenji Araki! This Friday at 6:00PM. <a>Learn more...</a></p>
+                            <p>Elder Ulisses Soares of the Quorum of the Twelve Apostles and his wife, Rosana, will be the featured keynote speakers during 
+                                Family Discovery Day a free, all-virtual event held during RootsTech 2022.. <a href="https://newsroom.churchofjesuschrist.org/event/rootstech-2022-family-discovery-day" >Learn more...</a></p>
+                        </div>
+                        <div class="event-contents">
+                            <h1>Temple News</h1>
+                            <p>In his concluding remarks at the April 2022 general conference, President Russell M. Nelson of The Church of Jesus Christ of Latter-day Saints announced plans to build a new Pacific Area Temple in:
+
+                                Wellington, New Zealand <a href="https://newsroom.churchofjesuschrist.org/article/prophet-new-temples-april-2022" >Learn more...</a></p>
                         </div>
                     </div>
                     <div class='weather'>
-                        <h2 class="weather-header"><strong>Weather:</strong></h2>
+                        <h1 class="weather-header"><strong>Weather:</strong></h1>
                         <div class="weather-box">
                             <figure style="text-transform:capitalize;"><img src="" alt="" id="weathericon"><figcaption></figcaption></figure><p><span id="current-temp" class="weather-temp"></span> &deg;C</p>
+                            <article class="forecast">
+                                <h1>Weather forecast for Bethesda</h1>
+                                <article class="day-forecast">
+                                    <h2>03 March 2018</h2>
+                                    <p>Rain.</p>
+                                </article>
+                                <article class="day-forecast">
+                                    <h2>04 March 2018</h2>
+                                    <p>Periods of rain.</p>
+                                </article>
+                                <article class="day-forecast">
+                                    <h2>05 March 2018</h2>
+                                    <p>Heavy rain.</p>
+                                </article>
+                            </article>
                         </div>
                         <hr>
                         <table class="weather-tb">
@@ -97,71 +154,64 @@
                                 <td class="windchill">Wind Chill:</td>
                                 <td><span id="windchill"></span></td>
                             </tr>
-                            
-                            <tr class="weather-timestamp">
-                                <td>Data receiving time:</td>
-                                <td><span id="weather-timestamp"></span></td>
-                            </tr>
                         </table>
-                        <article class="forecast">
-                            <h1>Weather forecast for Seattle</h1>
-                            <article class="day-forecast">
-                                <h2>03 March 2018</h2>
-                                <p>Rain.</p>
-                            </article>
-                            <article class="day-forecast">
-                                <h2>04 March 2018</h2>
-                                <p>Periods of rain.</p>
-                            </article>
-                            <article class="day-forecast">
-                                <h2>05 March 2018</h2>
-                                <p>Heavy rain.</p>
-                            </article>
-                        </article>
-                    </div>
                     </div>
                 </div>
-                <h1>We love to attend the temple, make a reservation now to stay at Temple Inn and Suites</h1>
-                <div>Temple Quote
-                    "If we can literally be 'caught up' in any work in the church, it is this work relating to genealogical research and to the temples. This, because there is the spirit of Elijah. The prophets have spoken of it. The Saints have felt it; and following the inspiration of it they have come to the temple to do the sacred work for both the living and the dead."
-                    —Boyd K. Packer.
-                    <p>Temple Quote
-                        "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy truth: for thou hast magnified thy word above all thy name."</p>
-                <p>Temple Quote
-                    "Just as our Redeemer gave His life as a vicarious sacrifice for all men, and in so doing became our Savior, even so we, in a small measure, when we engage in proxy work in the temple, become as saviors to those on the other side."</p>
-                </div>
+            </div>
+            <div class="invite">
+            <h1>We love to attend the temple, make a reservation now to stay at Temple Inn and Suites</h1>
+            </div>              
+              <div class="quotes">
+                  <h1>Temple Quotes</h1>
+                  <p class="item-1">"If we can literally be 'caught up' in any work in the church, it is this work relating 
+                      to genealogical research and to the temples. This, because there is the spirit of Elijah."</p>
+
+<p class="item-2">"I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy truth: 
+    for thou hast magnified thy word above all thy name."</p>
+
+
+<p class="item-3">"Just as our Redeemer gave His life as a vicarious sacrifice for all men, and in so doing became our Savior, 
+    even so we, in a small measure, when we engage in proxy work in the temple, become as saviors to those on the other side."</p>
+</div>
+
             </main>
             <footer>
                 <section class="footer-logo-click">
-                <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="footer logo"></a>
                 <button onclick="location.href='reservation.html'">Click to make a Reservation</button>
-                <button onclick="location.href='contact-form.html'">Click to contact us</button>
-                </section>
-                <div class="about"><p>ABOUT The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages 
-                    specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints 
-                    around the world. The owner-operated company caters to temple workers, patrons, and their families by 
-                    providing specialized services and accommodations that meet the needs of those patrons. The hotel 
-                    accommodations and services are available to anyone willing to abide by the terms and policies. This hotel chain offers to meet the needs of temple patrons who come to serve 
-                    in the temple or who participate in events such as sealings, weddings, receptions, and youth trips..</p></div>
-                <div>
-                    <ul class="questions">
-                        <li><a href="index.html">Questions</a></li>
-                        <li><a href="temple.html">What happens...</a></li>
-                        <li><a href="reservation.html">Can I.....</a></li>
-                        <li><a href="services.html">What are....</a></li>
-                        <li><a href="services.html">Can I host my wedding....</li>
-                    </ul>
+                <div class='social'>
+                    <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook_thumbnail.png" alt="Facebook icon"></a>
+                    <a class="social-2" href="https://www.instagram.com/" target="_blank"><img src="images/Instagram_thumbnail.png" alt="Instagram icon"></a>
+                    <a class="social-3" href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_thumbnail.png" alt="Linkedin icon"></a>
+                    <a class="social-4" href="https://twitter.com/" target="_blank"><img src="images/twitter_blue.jpg" alt="Twitter icon"></a>
                 </div>
-                    <div class='social'>
-                        <a class="social-1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook_thumbnail.png" alt="Facebook icon"></a>
-                        <a class="social-2" href="https://www.instagram.com/" target="_blank"><img src="images/Instagram_thumbnail.png" alt="Instagram icon"></a>
-                        <a class="social-3" href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_thumbnail.png" alt="Linkedin icon"></a>
-                        <a class="social-4" href="https://twitter.com/" target="_blank"><img src="images/twitter_blue.jpg" alt="Twitter icon"></a>
-                    </div>
+                <button onclick="location.href='contact-form.html'">Click to contact us</button>
+                <ul class="questions">
+                    <li><a href="index.html">Questions</a></li>
+                    <li><a href="temple.html">What happens...</a></li>
+                    <li><a href="reservation.html">Can I.....</a></li>
+                    <li><a href="services.html">What are....</a></li>
+                    <li><a href="services.html">Can I host my wedding....</li>
+                </ul>
+                <a href="index.html"><img src="images/Temple-Inn-logo-wide-med.png" alt="footer logo"></a>
+            </section>
+                <div class="about"><p>ABOUT US: The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages 
+                    specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints 
+                    around the world. We cater to temple workers, patrons, and their families by 
+                    providing specialized services and accommodations that meet the needs of those patrons. The hotel 
+                    accommodations and services are available to anyone willing to abide by the terms and policies. This hotel chain offers 
+                    to meet the needs of temple patrons who come to serve in the temple or who participate in events such as sealings, weddings, 
+                    receptions, and youth trips..</p>   
+                    <div class='info'>
+                        <h2>Our headquarter address is 4800 Montgomery Ln #300, Bethesda, MD 20814</h2>
+                        <p class='footer'>information@templeinnsuites.com</p>
+                        <p class='footer'>+64 (03)) 688 4550</p>
+                        <p class='footer'><a href='https://goo.gl/maps/kC1knqgyUVykLupE8'>📍Location Map</a></p>
+                    </div>                 
+                </div>
             </footer>
             <script src="js/scripts.js"></script>
             <script src="js/windchill.js"></script>
             <script src="js/weatherapi.js"></script>
-
+            <script src="js/slideshow.js"></script>
         </body>
     </html>
