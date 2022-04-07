@@ -2,7 +2,8 @@
 
 
     html {
-        max-width: 1450px;
+        justify-content: center;
+        max-width: 1300px;
     }
     nav ul li a{
         padding: .5rem 1rem;
@@ -27,14 +28,21 @@
     footer{
         display: flex;
     }
-    
-    /* Temples Page */
-    .galleryList {
-        display: none;
-    }
-    
-    .resize-gallery{
+/* Reservation page */
+    form{
+        max-width: 1000px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        background-color: goldenrod;
+        padding: 20px;
+        box-shadow: 5px 5px 10px rgb(128, 128, 128);
     }
+    form label, form input, form div p, form textarea, form button{
+        margin: 3px;
+        padding: 20px;
     }
+    #description{
+        grid-column: 2/3;
+    }
+        /* Temples Page */
+}
